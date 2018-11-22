@@ -1,0 +1,10 @@
+[user]
+	name = Aoibhinn Nic Aoidh
+	email = oibind@pm.me
+	signingkey = AAAF27D04117FA01
+[core]
+	editor = vim
+[commit]
+	gpgsign = true
+[help]
+	autoCorrect = 13
