@@ -52,6 +52,7 @@ export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[36m
 export EDITOR="vim"
 export BROWSER="firefox"
 
+alias ls="ls --color=auto"
 alias vi="vim"
 alias git="hub"
 alias xclip="xclip -selection c"
