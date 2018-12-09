@@ -8,6 +8,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -22,7 +23,13 @@ syntax on
 set number
 set relativenumber
 
-" specific plugin config 
+" specific plugin config
+
+" NerdTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+
+map <C-n> :NERDTreeToggle<CR>
 
 " YouCompleteMe config
 let g:ycm_autoclose_preview_window_after_completion=1
