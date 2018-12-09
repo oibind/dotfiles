@@ -1,23 +1,15 @@
-" vundle plugin manager guff
-set nocompatible              " required
-filetype off                  " required
+" vim-plug plugin manager guff
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
 
 " plugins
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'itchyny/lightline.vim'
-Plugin 'itchyny/vim-gitbranch'
-Plugin 'jiangmiao/auto-pairs'
+Plug 'Valloric/YouCompleteMe'
+Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-gitbranch'
+Plug 'jiangmiao/auto-pairs'
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
+call plug#end()
 
 " actual config stuff
 
