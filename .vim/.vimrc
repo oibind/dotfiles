@@ -9,10 +9,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " plugins
-Plugin 'Valloric/YouCompleteMe'		" automatic tab completion for coding
-Plugin 'itchyny/lightline.vim'		" status bar
-Plugin 'itchyny/vim-gitbranch'		" git support for status bar
-Plugin 'jiangmiao/auto-pairs'		" automatic parentheses completion
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'itchyny/lightline.vim'
+Plugin 'itchyny/vim-gitbranch'
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
