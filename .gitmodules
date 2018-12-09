@@ -1,0 +1,3 @@
+[submodule "awesome-copycats"]
+	path = .config/awesome
+	url = git://github.com/oibind/awesome-copycats.git
