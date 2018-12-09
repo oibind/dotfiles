@@ -15,6 +15,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
@@ -30,6 +31,9 @@ set number
 set relativenumber
 
 " specific plugin config
+
+"tcomment
+nmap <C-m> gcc
 
 " NerdTree
 autocmd StdinReadPre * let s:std_in=1
