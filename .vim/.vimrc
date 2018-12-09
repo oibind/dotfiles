@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " plugins
-Plugin 'Valloric/YouCompleteMe'		" automatic tab complete for coding
+Plugin 'Valloric/YouCompleteMe'		" automatic tab completion for coding
 Plugin 'itchyny/lightline.vim'		" status bar
 Plugin 'itchyny/vim-gitbranch'		" git support for status bar
 Plugin 'jiangmiao/auto-pairs'		" automatic parentheses completion
