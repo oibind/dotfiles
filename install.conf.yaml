@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.bashrc: .bashrc
+    ~/.gitconfig: .gitconfig
+    ~/.vim: .vim
+    ~/.config/awesome: .config/awesome
+    ~/.config/ranger: .config/ranger
+    ~/.config/termite: .config/termite
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
