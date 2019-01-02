@@ -7,11 +7,11 @@
 - link:
     ~/.bashrc: .bashrc
     ~/.gitconfig: .gitconfig
-    ~/.vim: .vim
-    ~/.config/awesome: .config/awesome
-    ~/.config/ranger: .config/ranger
-    ~/.config/termite: .config/termite
-    ~/.config/gtk-3.0/settings.ini: .config/gtk-3.0/settings.ini
+    ~/vim: .vim
+    ~/config/awesome: .config/awesome
+    ~/config/ranger: .config/ranger
+    ~/config/termite: .config/termite
+    ~/config/gtk-3.0/settings.ini: .config/gtk-3.0/settings.ini
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

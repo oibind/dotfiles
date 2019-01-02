@@ -1,5 +1,5 @@
 [submodule "awesome-copycats"]
-	path = .config/awesome
+	path = config/awesome
 	url = git://github.com/oibind/awesome-copycats.git
 [submodule "dotbot"]
 	path = dotbot
