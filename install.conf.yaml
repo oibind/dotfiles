@@ -5,8 +5,8 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc: .bashrc
-    ~/.gitconfig: .gitconfig
+    ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
     ~/.vim: vim
     ~/.config/awesome: config/awesome
     ~/.config/ranger: config/ranger
