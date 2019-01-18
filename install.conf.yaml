@@ -12,6 +12,7 @@
     ~/.config/ranger: config/ranger
     ~/.config/termite: config/termite
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
+    ~/.config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs: config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
