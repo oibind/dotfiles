@@ -10,7 +10,6 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " plugins
-Plug 'Valloric/YouCompleteMe'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'jiangmiao/auto-pairs'
