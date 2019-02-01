@@ -29,6 +29,9 @@ syntax on
 set number
 set relativenumber
 
+set cursorline
+highlight Cursorline cterm=bold
+
 " quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
