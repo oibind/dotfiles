@@ -67,6 +67,16 @@ let g:lightline = {
 
 set laststatus=2
 
+augroup autocom
+    autocmd!
+    
+    "auto beautification of python files
+     autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
+
+    "execute the command on write
+    " autocmd BufWritePost,FileWritePost *.cpp !your_commad
+augroup END
+
 " specify tab spacing for filetypes
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
