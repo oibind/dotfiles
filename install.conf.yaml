@@ -14,6 +14,7 @@
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     # replace with your own unique user id
     ~/.config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs: config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs
+    ~/.local/bin: scripts
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
