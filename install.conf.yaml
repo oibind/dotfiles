@@ -15,6 +15,7 @@
     # replace with your own unique user id
     ~/.config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs: config/spotify/Users/21xefcjj6xpwexutvdq6ke5ca-user/prefs
     ~/.local/bin: scripts
+    ~/.config/fish: config/fish
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
