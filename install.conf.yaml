@@ -5,7 +5,6 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
     ~/.vim: vim
     ~/.config/awesome: config/awesome
