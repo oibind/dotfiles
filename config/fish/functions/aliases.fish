@@ -9,3 +9,7 @@ end
 function sprunge --description alias\ sprunge\ curl\ -F\ \'sprunge=\<-\'\ http://sprunge.us
 	curl -F 'sprunge=<-' http://sprunge.us $argv;
 end
+
+function xclip --description 'alias xclip xclip -selection c'
+	command xclip -selection c $argv;
+end
