@@ -31,7 +31,7 @@ set number
 set relativenumber
 
 set cursorline
-highlight Cursorline cterm=bold
+highlight Cursorline cterm=bold,underline
 
 " specific plugin config
 
