@@ -6,7 +6,7 @@
 
 - link:
     ~/.gitconfig: gitconfig
-    ~/.config/nvim/: nvim
+    ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/awesome: config/awesome
     ~/.config/ranger: config/ranger
     ~/.config/termite: config/termite
