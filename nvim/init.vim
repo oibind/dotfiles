@@ -1,19 +1,23 @@
 " vim-plug plugin manager guff
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 " Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/site/plugged')
 
 " plugins
-Plug 'Valloric/YouCompleteMe' "you'll have to run install.sh manually
+
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
+Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 Plug 'tomtom/tcomment_vim'
 
@@ -23,25 +27,15 @@ call plug#end()
 
 set encoding=utf-8
 
-set background=dark
-
-syntax on
-
 set number
 set relativenumber
 
 set cursorline
 highlight Cursorline cterm=bold
 
-" quicker window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-
 " specific plugin config
 
-"tcomment
+" tcomment
 nmap <C-m> gcc
 
 " NerdTree
@@ -49,10 +43,6 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
 map <C-n> :NERDTreeToggle<CR>
-
-" YouCompleteMe config
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " lightline config
 let g:lightline = {
@@ -68,17 +58,32 @@ let g:lightline = {
 
 set laststatus=2
 
-augroup autocom
-    autocmd!
-    
-    "auto beautification of python files
-     autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
+" ncm2
+autocmd BufEnter * call ncm2#enable_for_buffer()
+set completeopt=menuone,noselect,noinsert
+set shortmess+=c
+inoremap <c-c> <ESC>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" make it fast
+let ncm2#popup_delay = 5
+let ncm2#complete_length = [[1, 1]]
+" Use new fuzzy based matches
+let g:ncm2#matcher = 'substrfuzzy'
 
-    "execute the command on write
-    " autocmd BufWritePost,FileWritePost *.cpp !your_commad
+" python beautification 
+
+augroup autocom
+	autocmd!
+
+	" auto beautification of python files
+	autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
+
+	" execute the command on write
+	" autocmd BufWritePost,FileWritePost *.cpp !your_commad
 augroup END
 
-" specify tab spacing for filetypes
+" tab spacing for filetypes
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
