@@ -20,6 +20,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'scrooloose/nerdtree'
 Plug 'tomtom/tcomment_vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 call plug#end()
 
@@ -34,6 +35,9 @@ set cursorline
 highlight Cursorline cterm=bold,underline
 
 " specific plugin config
+
+" markdown-preview
+let g:mkdp_auto_start = 0
 
 " tcomment
 nmap <C-m> gcc
