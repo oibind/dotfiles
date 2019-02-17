@@ -28,6 +28,7 @@ call plug#end()
 
 set encoding=utf-8
 
+set title
 set number
 set relativenumber
 
