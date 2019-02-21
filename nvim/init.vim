@@ -6,7 +6,7 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Plugins will be downloaded under the specified directory.
+" plugins will be downloaded under the specified directory.
 call plug#begin('~/.local/share/nvim/site/plugged')
 
 " plugins
@@ -18,7 +18,7 @@ Plug 'ncm2/ncm2-path'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'	
 Plug 'tomtom/tcomment_vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
@@ -43,7 +43,7 @@ let g:mkdp_auto_start = 0
 " tcomment
 nmap <C-m> gcc
 
-" NerdTree
+" nerdtree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
@@ -77,7 +77,6 @@ let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
 " python beautification 
-
 augroup autocom
 	autocmd!
 
@@ -89,7 +88,6 @@ augroup autocom
 augroup END
 
 " tab spacing for filetypes
-
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
