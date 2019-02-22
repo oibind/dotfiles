@@ -10,7 +10,6 @@ git clone oibind/dotfiles && cd dotfiles && ./install
 awesome | tiling window manger based on dwm
 nvim | text editor (new hipster version of vim)
 fish | friendly interactive shell
-opendoas | sudo is for noobs
 termite | terminal emulator
 sxiv | lightweight image viewer
 ranger | terminal based file manager
