@@ -15,12 +15,14 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-racer'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'scrooloose/nerdtree'	
 Plug 'tomtom/tcomment_vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+Plug 'vim-scripts/indentpython.vim'
+Plug 'takac/vim-hardtime'
 
 call plug#end()
 
@@ -32,22 +34,23 @@ set title
 set number
 set relativenumber
 
+set expandtab
+set list
+set listchars=tab:›—,trail:␣,extends:▶,precedes:◀
+
 set cursorline
-highlight Cursorline cterm=bold,underline
+highlight Cursorline cterm=bold
 
 " specific plugin config
+
+"hardtime
+let g:hardtime_default_on = 1
 
 " markdown-preview
 let g:mkdp_auto_start = 0
 
 " tcomment
 nmap <C-m> gcc
-
-" nerdtree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
-
-map <C-n> :NERDTreeToggle<CR>
 
 " lightline config
 let g:lightline = {
@@ -87,7 +90,15 @@ augroup autocom
 	" autocmd BufWritePost,FileWritePost *.cpp !your_commad
 augroup END
 
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix
+
 " tab spacing for filetypes
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
-autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
