@@ -5,7 +5,7 @@ git clone oibind/dotfiles && cd dotfiles && ./install
 
 ### Packages I use
 
-| package nane | what it do |
+| package name | what it do |
 | - | - |
 awesome | tiling window manger based on dwm
 nvim | text editor (new hipster version of vim)
