@@ -23,7 +23,7 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'tomtom/tcomment_vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'vim-scripts/indentpython.vim'
-" Plug 'takac/vim-hardtime'
+Plug 'takac/vim-hardtime'
 Plug 'airblade/vim-gitgutter'
 
 call plug#end()
@@ -46,7 +46,7 @@ highlight Cursorline cterm=bold
 " specific plugin config
 
 " hardtime
-" let g:hardtime_default_on = 1
+let g:hardtime_default_on = 1
 
 " markdown-preview
 let g:mkdp_auto_start = 0
@@ -82,15 +82,17 @@ let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
 " python beautification
-augroup autocom
-        autocmd!
+" augroup autocom
+        " autocmd!
 
         " auto beautification of python files
-        autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
+        " autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
 
         " execute the command on write
-        " autocmd BufWritePost,FileWritePost *.cpp !your_commad
-augroup END
+        " autocmd BufWritePost,FileWritePost *.py !autopep8 --in-place --aggressive
+                \ --aggressive %
+        " autocmd BufWritePost,FileWritePost *.py :edit
+" augroup END
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
