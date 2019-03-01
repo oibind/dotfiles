@@ -25,6 +25,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'vim-scripts/indentpython.vim'
 Plug 'takac/vim-hardtime'
 Plug 'airblade/vim-gitgutter'
+Plug 'cabellwg/exit-vim'
 
 call plug#end()
 
