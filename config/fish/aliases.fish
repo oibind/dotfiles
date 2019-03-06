@@ -1,3 +1,4 @@
+alias cp 'cp --reflink=auto'
 alias git 'hub'
 alias vim 'nvim'
 alias packer 'packer-aur'
