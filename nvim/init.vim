@@ -13,22 +13,9 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 " plugins
 
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
-Plug 'ncm2/ncm2-bufword'
-Plug 'ncm2/ncm2-path'
-Plug 'ncm2/ncm2-jedi'
-Plug 'ncm2/ncm2-racer'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
-Plug 'itchyny/lightline.vim'
-Plug 'itchyny/vim-gitbranch'
-Plug 'tpope/vim-commentary'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
-Plug 'vim-scripts/indentpython.vim'
 Plug 'airblade/vim-gitgutter'
-
-call plug#end()
 
 " actual config stuff
 
@@ -85,13 +72,19 @@ nnoremap <silent> $ g$
 " specific plugin config
 
 " markdown-preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 let g:mkdp_auto_start = 0
 
-" vim-commentary
+" auto un/comment
+Plug 'tpope/vim-commentary'
+
 nmap <C-m> gcc
 vmap <C-m> gc
 
-" lightline config
+" status bar
+Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-gitbranch'
+
 let g:lightline = {
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
@@ -105,7 +98,15 @@ let g:lightline = {
 
 set laststatus=2
 
-" ncm2
+
+" autocomplete
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-jedi' " python
+Plug 'ncm2/ncm2-racer' " rust
+
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
 set shortmess+=c
@@ -118,18 +119,8 @@ let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
 let g:ncm2#matcher = 'substrfuzzy'
 
-" python beautification
-" augroup autocom
-        " autocmd!
-
-        " auto beautification of python files
-        " autocmd VimLeave *.py !autopep8 --in-place --aggressive --aggressive %
-
-        " execute the command on write
-        " autocmd BufWritePost,FileWritePost *.py !autopep8 --in-place --aggressive
-                \ --aggressive %
-        " autocmd BufWritePost,FileWritePost *.py :edit
-" augroup END
+" tab spacing for filetypes
+Plug 'vim-scripts/indentpython.vim'
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
@@ -140,6 +131,7 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix
 
-" tab spacing for filetypes
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+
+call plug#end()
