@@ -11,12 +11,6 @@ endif
 " plugins will be downloaded under the specified directory
 call plug#begin('~/.local/share/nvim/site/plugged')
 
-" plugins
-
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-surround'
-Plug 'airblade/vim-gitgutter'
-
 " actual config stuff
 
 set encoding=utf-8
@@ -71,6 +65,13 @@ nnoremap <silent> $ g$
 
 " specific plugin config
 
+" auto [] () {} "" '', etc...
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+
+" git diff in gutter
+Plug 'airblade/vim-gitgutter'
+
 " markdown-preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 let g:mkdp_auto_start = 0
@@ -97,6 +98,15 @@ let g:lightline = {
       \ }
 
 set laststatus=2
+
+" linting/fixing
+Plug 'w0rp/ale'
+
+let g:ale_set_highlights = 0
+let g:ale_change_sign_column_color = 0
+let g:ale_sign_column_always = 1
+let g:ale_lint_on_text_changed = 'always'
+let g:ale_warn_about_trailing_whitespace = 1
 
 " autocomplete
 Plug 'ncm2/ncm2'
