@@ -21,6 +21,11 @@ function fe
   fzf | xargs -r -I % $EDITOR %;
 end
 
+function fhe
+  find ~/ -type f -mtime -14 | cut -d'/' -f4- | fzf | xargs -r -I % $EDITOR %;
+end
+
+
 function sprunge
   curl -F 'sprunge=<-' http://sprunge.us $argv;
 end
