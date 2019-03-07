@@ -4,7 +4,7 @@ alias vim 'nvim'
 alias xlcip 'xclip -selection c'
 
 function fe
-        $EDITOR (fzf)
+        fzf | xargs -r -I % $EDITOR %;
 end
 
 function sprunge
