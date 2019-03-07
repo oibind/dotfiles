@@ -98,7 +98,6 @@ let g:lightline = {
 
 set laststatus=2
 
-
 " autocomplete
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
