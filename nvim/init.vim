@@ -18,14 +18,14 @@ Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-jedi'
 Plug 'ncm2/ncm2-racer'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-commentary'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'vim-scripts/indentpython.vim'
 Plug 'takac/vim-hardtime'
 Plug 'airblade/vim-gitgutter'
-Plug 'cabellwg/exit-vim'
 
 call plug#end()
 
@@ -52,8 +52,9 @@ let g:hardtime_default_on = 1
 " markdown-preview
 let g:mkdp_auto_start = 0
 
-" tcomment
+" vim-commentary
 nmap <C-m> gcc
+vmap <C-m> gc
 
 " lightline config
 let g:lightline = {
