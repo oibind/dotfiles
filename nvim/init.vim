@@ -26,7 +26,6 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'vim-scripts/indentpython.vim'
-Plug 'takac/vim-hardtime'
 Plug 'airblade/vim-gitgutter'
 
 call plug#end()
@@ -35,21 +34,55 @@ call plug#end()
 
 set encoding=utf-8
 
+set autoread " detect when a file is changed
+
 set title
 set number
 set relativenumber
+set ttyfast " faster redrawing
 
-set expandtab
+set noexpandtab " insert tabs rather than spaces for <Tab>
+set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
+
+" toggle invisible characters
 set list
 set listchars=tab:›—,trail:␣,extends:▶,precedes:◀
+
+set backspace=indent,eol,start " make backspace behave in a sane manner
+set clipboard=unnamed
 
 set cursorline
 highlight Cursorline cterm=bold
 
-" specific plugin config
+" searching
+set ignorecase " case insensitive searching
+set smartcase " case-sensitive if expresson contains a capital letter
+set hlsearch " highlight search results
+set incsearch " set incremental search, like modern browsers
 
-" hardtime
-let g:hardtime_default_on = 1
+" shortcuts
+
+let mapleader = ','
+
+" shortcut to save
+nmap <leader>, :w<cr>
+" shortcut to quit without saving
+nmap <leader>. :q!<cr>
+
+" remove extra whitespace
+nmap <leader><space> :%s/\s\+$<cr>
+nmap <leader><space><space> :%s/\n\{2,}/\r\r/g<cr>
+
+" clear highlighted search
+noremap <space> :set hlsearch! hlsearch?<cr>
+
+" moving up and down work as you would expect
+nnoremap <silent> j gj
+nnoremap <silent> k gk
+nnoremap <silent> ^ g^
+nnoremap <silent> $ g$
+
+" specific plugin config
 
 " markdown-preview
 let g:mkdp_auto_start = 0
