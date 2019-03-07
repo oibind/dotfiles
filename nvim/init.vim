@@ -1,4 +1,6 @@
-" vim-plug plugin manager guff
+" init.vim
+
+" automatically install vim-plug if not already installed and download plugins
 
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
@@ -6,7 +8,7 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" plugins will be downloaded under the specified directory.
+" plugins will be downloaded under the specified directory
 call plug#begin('~/.local/share/nvim/site/plugged')
 
 " plugins
