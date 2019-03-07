@@ -13,6 +13,8 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 " actual config stuff
 
+filetype plugin indent on
+
 set encoding=utf-8
 
 set autoread " detect when a file is changed
