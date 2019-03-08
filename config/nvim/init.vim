@@ -1,7 +1,5 @@
 " init.vim
-
 " automatically install vim-plug if not already installed and download plugins
-
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -35,7 +33,9 @@ set backspace=indent,eol,start " make backspace behave in a sane manner
 set clipboard=unnamed
 
 set cursorline
-highlight Cursorline cterm=bold
+highlight Cursorline cterm=bold,underline
+call matchadd('ColorColumn', '\%81v', 100)
+highlight ColorColumn ctermbg=magenta
 
 " searching
 set ignorecase " case insensitive searching
