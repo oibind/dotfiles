@@ -1,0 +1,363 @@
+2019-03-08 00:13:25		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2019-03-08 00:13:26		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2019-03-08 00:13:26		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2019-03-08 00:13:26		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2019-03-08 00:13:26		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2019-03-08 00:13:26		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2019-03-08 00:13:26		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2019-03-08 00:13:26		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2019-03-08 00:13:26		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2019-03-08 00:13:26		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2019-03-08 00:13:26		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2019-03-08 00:13:26		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2019-03-08 00:13:26		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2019-03-08 00:13:26		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2019-03-08 00:13:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2019-03-08 00:14:20		irc: server freenode added
+2019-03-08 00:14:47		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2019-03-08 00:14:56		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2019-03-08 00:15:01		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2019-03-08 00:15:11		Option changed: irc.server.freenode.username = "oibind"  (default if null: "oibind")
+2019-03-08 00:15:27		Option changed: irc.server.freenode.realname = "Aoibhinn Nic Aoidh"  (default if null: "")
+2019-03-08 00:15:52		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2019-03-08 00:16:11		Option changed: irc.server.freenode.nicks = "oibind,oibind_,oibind__"  (default if null: "oibind,oibind1,oibind2,oibind3,oibind4")
+2019-03-08 00:16:25		Option changed: irc.server.freenode.sasl_username = "oibind"  (default if null: "")
+2019-03-08 00:16:41		Option changed: irc.server.freenode.sasl_password = "TRMMD5@bbW8wQbevQ^vN1$WPl7VU2*Ti2IUcalvPlJFQuPHem$"  (default if null: "")
+2019-03-08 00:18:19		Passphrase added
+2019-03-08 00:18:40		Secured data "freenode_password" set
+2019-03-08 00:18:40		Options saved to sec.conf
+2019-03-08 00:19:20		Option changed: irc.server.freenode.sasl_password = "${sec.data.freenode_password}"  (default if null: "")
+2019-03-08 00:19:48		Option changed: irc.server.freenode.autojoin = "#archlinux,#freenode"  (default if null: "")
+2019-03-08 00:23:10		script: downloading list of scripts...
+2019-03-08 00:23:10		script: 359 scripts for WeeChat 2.4
+2019-03-08 00:23:10		script: script "buffers" not found
+2019-03-08 00:23:23	=!=	Error: unknown command "/fre" (type /help for help)
+2019-03-08 00:25:01		[core]  /secure  passphrase <passphrase>|-delete
+2019-03-08 00:25:01		                 decrypt <passphrase>|-discard
+2019-03-08 00:25:01		                 set <name> <value>
+2019-03-08 00:25:01		                 del <name>
+2019-03-08 00:25:01		manage secured data (passwords or private data encrypted in file sec.conf)
+2019-03-08 00:25:01		passphrase: change the passphrase (without passphrase, data is stored as plain text in file sec.conf)
+2019-03-08 00:25:01		   -delete: delete passphrase
+2019-03-08 00:25:01		   decrypt: decrypt data still encrypted (it happens only if passphrase was not given on startup)
+2019-03-08 00:25:01		  -discard: discard all data still encrypted
+2019-03-08 00:25:01		       set: add or change secured data
+2019-03-08 00:25:01		       del: delete secured data
+2019-03-08 00:25:01		Without argument, this command displays secured data in a new buffer.
+2019-03-08 00:25:01		Keys on secure buffer:
+2019-03-08 00:25:01		  alt+v  toggle values
+2019-03-08 00:25:01		When a passphrase is used (data encrypted), it is asked by WeeChat on startup.
+2019-03-08 00:25:01		It is possible to set environment variable "WEECHAT_PASSPHRASE" to prevent the prompt (this same variable is used by WeeChat on /upgrade), or to set option sec.crypt.passphrase_file to read the passphrase from a file (see /help sec.crypt.passphrase_file).
+2019-03-08 00:25:01		Secured data with format ${sec.data.xxx} can be used in:
+2019-03-08 00:25:01		  - command /eval
+2019-03-08 00:25:01		  - command line argument "--run-command"
+2019-03-08 00:25:01		  - options weechat.startup.command_{before|after}_plugins
+2019-03-08 00:25:01		  - other options that may contain a password or sensitive data (for example proxy, irc server and relay); see /help on the options to check if they are evaluated.
+2019-03-08 00:25:01		Examples:
+2019-03-08 00:25:01		  set a passphrase:
+2019-03-08 00:25:01		    /secure passphrase this is my passphrase
+2019-03-08 00:25:01		  encrypt freenode SASL password:
+2019-03-08 00:25:01		    /secure set freenode mypassword
+2019-03-08 00:25:01		    /set irc.server.freenode.sasl_password "${sec.data.freenode}"
+2019-03-08 00:25:01		  encrypt oftc password for nickserv:
+2019-03-08 00:25:01		    /secure set oftc mypassword
+2019-03-08 00:25:01		    /set irc.server.oftc.command "/msg nickserv identify ${sec.data.oftc}"
+2019-03-08 00:25:01		  alias to ghost the nick "mynick":
+2019-03-08 00:25:01		    /alias add ghost /eval /msg -server freenode nickserv ghost mynick ${sec.data.freenode}
+2019-03-08 00:25:51		[core]  /buffer  list
+2019-03-08 00:25:51		                 add [-free] [-switch] <name>
+2019-03-08 00:25:51		                 clear [<number>|<name>|-merged|-all [<number>|<name>...]]
+2019-03-08 00:25:51		                 move <number>|-|+
+2019-03-08 00:25:51		                 swap <number1>|<name1> [<number2>|<name2>]
+2019-03-08 00:25:51		                 cycle <number>|<name> [<number>|<name>...]
+2019-03-08 00:25:51		                 merge <number>|<name>
+2019-03-08 00:25:51		                 unmerge [<number>|-all]
+2019-03-08 00:25:51		                 hide [<number>|<name>|-all [<number>|<name>...]]
+2019-03-08 00:25:51		                 unhide [<number>|<name>|-all [<number>|<name>...]]
+2019-03-08 00:25:51		                 renumber [<number1> [<number2> [<start>]]]
+2019-03-08 00:25:51		                 close [<n1>[-<n2>]|<name>...]
+2019-03-08 00:25:51		                 notify <level>
+2019-03-08 00:25:51		                 localvar [<number>|<name>]
+2019-03-08 00:25:51		                 set <property> [<value>]
+2019-03-08 00:25:51		                 get <property>
+2019-03-08 00:25:51		                 <number>|-|+|<name>
+2019-03-08 00:25:51		manage buffers
+2019-03-08 00:25:51		    list: list buffers (without argument, this list is displayed)
+2019-03-08 00:25:51		     add: add a new buffer (it can be closed with "/buffer close" or input "q")
+2019-03-08 00:25:51		   clear: clear buffer content (number for a buffer, -merged for merged buffers, -all for all buffers, or nothing for current buffer)
+2019-03-08 00:25:51		    move: move buffer in the list (may be relative, for example -1); "-" = move to first buffer number, "+" = move to last buffer number + 1
+2019-03-08 00:25:51		    swap: swap two buffers (swap with current buffer if only one number/name given)
+2019-03-08 00:25:51		   cycle: jump loop between a list of buffers
+2019-03-08 00:25:51		   merge: merge current buffer to another buffer (chat area will be mix of both buffers)
+2019-03-08 00:25:51		          (by default ctrl-x switches between merged buffers)
+2019-03-08 00:25:51		 unmerge: unmerge buffer from other buffers which have same number
+2019-03-08 00:25:51		    hide: hide the buffer
+2019-03-08 00:25:51		  unhide: unhide the buffer
+2019-03-08 00:25:51		renumber: renumber buffers (works only if option weechat.look.buffer_auto_renumber is off)
+2019-03-08 00:25:51		   close: close buffer (number/range or name is optional)
+2019-03-08 00:25:51		  notify: set notify level for current buffer: this level determines whether buffer will be added to hotlist or not:
+2019-03-08 00:25:51		               none: never
+2019-03-08 00:25:51		          highlight: for highlights only
+2019-03-08 00:25:51		            message: for messages from users + highlights
+2019-03-08 00:25:51		                all: all messages
+2019-03-08 00:25:51		              reset: reset to default value (all)
+2019-03-08 00:25:51		localvar: display local variables for the buffer
+2019-03-08 00:25:51		     set: set a property for current buffer
+2019-03-08 00:25:51		     get: display a property of current buffer
+2019-03-08 00:25:51		  number: jump to buffer by number, possible prefix:
+2019-03-08 00:25:51		          '+': relative jump, add number to current
+2019-03-08 00:25:51		          '-': relative jump, sub number to current
+2019-03-08 00:25:51		          '*': jump to number, using option "weechat.look.jump_current_to_previous_buffer"
+2019-03-08 00:25:51		       -: jump to first buffer number
+2019-03-08 00:25:51		       +: jump to last buffer number
+2019-03-08 00:25:51		    name: jump to buffer by (partial) name
+2019-03-08 00:25:51		Examples:
+2019-03-08 00:25:51		  clear current buffer:
+2019-03-08 00:25:51		    /buffer clear
+2019-03-08 00:25:51		  move buffer to number 5:
+2019-03-08 00:25:51		    /buffer move 5
+2019-03-08 00:25:51		  swap buffer 1 with 3:
+2019-03-08 00:25:51		    /buffer swap 1 3
+2019-03-08 00:25:51		  swap buffer #weechat with current buffer:
+2019-03-08 00:25:51		    /buffer swap #weechat
+2019-03-08 00:25:51		  jump on #chan1, #chan2, #chan3 and loop:
+2019-03-08 00:25:51		    /buffer cycle #chan1 #chan2 #chan3
+2019-03-08 00:25:51		  merge with core buffer:
+2019-03-08 00:25:51		    /buffer merge 1
+2019-03-08 00:25:51		  merge with #weechat buffer:
+2019-03-08 00:25:51		    /buffer merge #weechat
+2019-03-08 00:25:51		  unmerge buffer:
+2019-03-08 00:25:51		    /buffer unmerge
+2019-03-08 00:25:51		  close current buffer:
+2019-03-08 00:25:51		    /buffer close
+2019-03-08 00:25:51		  close buffers 5 to 7:
+2019-03-08 00:25:51		    /buffer close 5-7
+2019-03-08 00:25:51		  jump to #weechat:
+2019-03-08 00:25:51		    /buffer #weechat
+2019-03-08 00:25:51		  jump to next buffer:
+2019-03-08 00:25:51		    /buffer +1
+2019-03-08 00:25:51		  jump to last buffer number:
+2019-03-08 00:25:51		    /buffer +
+2019-03-08 00:29:00		New key binding (context "mouse"): @chat(python.*):button2 => hsignal:slack_mouse
+2019-03-08 00:29:00		New key binding (context "cursor"): @chat(python.*):M => hsignal:slack_cursor_message
+2019-03-08 00:29:00		New key binding (context "cursor"): @chat(python.*):L => hsignal:slack_cursor_linkarchive
+2019-03-08 00:29:00		New key binding (context "cursor"): @chat(python.*):R => hsignal:slack_cursor_reply
+2019-03-08 00:29:00		New key binding (context "cursor"): @chat(python.*):D => hsignal:slack_cursor_delete
+2019-03-08 00:29:00		New key binding (context "cursor"): @chat(python.*):T => hsignal:slack_cursor_thread
+2019-03-08 00:29:00		Connecting to 1 slack team.
+2019-03-08 00:29:00		python scripts loaded: slack
+2019-03-08 00:29:00		script: 359 scripts for WeeChat 2.4
+2019-03-08 00:29:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2019-03-08 00:29:00		ERROR: Failed connecting to Slack with token starting with INSERT VALID KE: invalid_auth
+2019-03-08 00:29:00		ERROR: Token does not look like a valid Slack token. Ensure it is a valid token and not just a OAuth code.
+2019-03-08 00:30:04		#### Retrieving a Slack token via OAUTH ####
+2019-03-08 00:30:04		1) Paste this into a browser: https://slack.com/oauth/authorize?client_id=2468770254.51917335286&scope=client
+2019-03-08 00:30:04		2) Select the team you wish to access from wee-slack in your browser.
+2019-03-08 00:30:04		3) Click "Authorize" in the browser **IMPORTANT: the redirect will fail, this is expected**
+2019-03-08 00:30:04		   If you get a message saying you are not authorized to install wee-slack, the team has restricted Slack app installation and you will have to request it from an admin. To do that, go to https://my.slack.com/apps/A1HSZ9V8E-wee-slack and click "Request to Install".
+2019-03-08 00:30:04		4) Copy the "code" portion of the URL to your clipboard
+2019-03-08 00:30:04		5) Return to weechat and run `/slack register [code]`
+2019-03-08 00:38:00		#### Retrieving a Slack token via OAUTH ####
+2019-03-08 00:38:00		1) Paste this into a browser: https://slack.com/oauth/authorize?client_id=2468770254.51917335286&scope=client
+2019-03-08 00:38:00		2) Select the team you wish to access from wee-slack in your browser.
+2019-03-08 00:38:00		3) Click "Authorize" in the browser **IMPORTANT: the redirect will fail, this is expected**
+2019-03-08 00:38:00		   If you get a message saying you are not authorized to install wee-slack, the team has restricted Slack app installation and you will have to request it from an admin. To do that, go to https://my.slack.com/apps/A1HSZ9V8E-wee-slack and click "Request to Install".
+2019-03-08 00:38:00		4) Copy the "code" portion of the URL to your clipboard
+2019-03-08 00:38:00		5) Return to weechat and run `/slack register [code]`
+2019-03-08 00:38:34		Success! Added team "Farset Labs"
+2019-03-08 00:38:34		Please reload wee-slack with: /python reload slack
+2019-03-08 00:38:44		python: unloading script "slack"
+2019-03-08 00:38:44		python: script "slack" unloaded
+2019-03-08 00:38:44		python: loading script "/home/oibind/.weechat/python/autoload/wee_slack.py"
+2019-03-08 00:38:44		python: registered script "slack", version 2.2.0 (Extends weechat for typing notification/search/etc on slack.com)
+2019-03-08 00:38:44		Connecting to 1 slack team.
+2019-03-08 00:45:58		#### Retrieving a Slack token via OAUTH ####
+2019-03-08 00:45:58		1) Paste this into a browser: https://slack.com/oauth/authorize?client_id=2468770254.51917335286&scope=client
+2019-03-08 00:45:58		2) Select the team you wish to access from wee-slack in your browser.
+2019-03-08 00:45:58		3) Click "Authorize" in the browser **IMPORTANT: the redirect will fail, this is expected**
+2019-03-08 00:45:58		   If you get a message saying you are not authorized to install wee-slack, the team has restricted Slack app installation and you will have to request it from an admin. To do that, go to https://my.slack.com/apps/A1HSZ9V8E-wee-slack and click "Request to Install".
+2019-03-08 00:45:58		4) Copy the "code" portion of the URL to your clipboard
+2019-03-08 00:45:58		5) Return to weechat and run `/slack register [code]`
+2019-03-08 00:50:17		Option changed: plugins.var.python.slack.slack_api_token = "xoxp-3009318425-272284655636-570556342082-161b35c4c484ef1afeb323760916374c"
+2019-03-08 00:50:32		python: unloading script "slack"
+2019-03-08 00:50:32		python: script "slack" unloaded
+2019-03-08 00:50:32		python: loading script "/home/oibind/.weechat/python/autoload/wee_slack.py"
+2019-03-08 00:50:32		python: registered script "slack", version 2.2.0 (Extends weechat for typing notification/search/etc on slack.com)
+2019-03-08 00:50:32		Connecting to 1 slack team.
+2019-03-08 00:51:09		Option changed: plugins.var.python.slack.slack_api_token = "xoxp-3009318425-272284655636-570556342082-161b35c4c484ef1afeb323760916374c,xoxp-3546427146-346016498416-556430739201-91263b5ff78dbe4a6da833817183bcf1"
+2019-03-08 00:51:12		python: unloading script "slack"
+2019-03-08 00:51:12		python: script "slack" unloaded
+2019-03-08 00:51:12		python: loading script "/home/oibind/.weechat/python/autoload/wee_slack.py"
+2019-03-08 00:51:12		python: registered script "slack", version 2.2.0 (Extends weechat for typing notification/search/etc on slack.com)
+2019-03-08 00:51:12		Connecting to 2 slack teams.
+2019-03-08 00:52:50		Secured data "slack_fl" set
+2019-03-08 00:52:50		Options saved to sec.conf
+2019-03-08 00:53:18		Secured data "slack_nitech" set
+2019-03-08 00:53:18		Options saved to sec.conf
+2019-03-08 00:55:18		Option changed: plugins.var.python.slack.slack_api_token = "${sec.data.slack_fl},${sec.data.slack_nitech}"
+2019-03-08 00:58:30	=!=	Option "irc" not found (tip: you can use wildcard "*" in option to see a sublist)
+2019-03-08 00:58:36	=!=	Option "freenode" not found (tip: you can use wildcard "*" in option to see a sublist)
+2019-03-08 00:59:52		python: scripts unloaded
+2019-03-08 01:00:12		Connecting to 2 slack teams.
+2019-03-08 01:00:12		python scripts loaded: slack
+2019-03-08 01:00:13		script: 359 scripts for WeeChat 2.4
+2019-03-08 01:00:13		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2019-03-08 01:01:39		ERROR: Unknown user: list
+2019-03-08 01:01:42		Too few arguments for command "/join" (help on command: /help join)
+2019-03-08 01:01:45		ERROR: Unknown user: help
+2019-03-08 01:02:01		[irc]  /join  [-noswitch] [-server <server>] [<channel1>[,<channel2>...]] [<key1>[,<key2>...]]
+2019-03-08 01:02:01		join a channel
+2019-03-08 01:02:01		-noswitch: do not switch to new buffer
+2019-03-08 01:02:01		   server: send to this server (internal name)
+2019-03-08 01:02:01		  channel: channel name to join
+2019-03-08 01:02:01		      key: key to join the channel (channels with a key must be the first in list)
+2019-03-08 01:02:01		Examples:
+2019-03-08 01:02:01		  /join #weechat
+2019-03-08 01:02:01		  /join #protectedchan,#weechat key
+2019-03-08 01:02:01		  /join -server freenode #weechat
+2019-03-08 01:02:01		  /join -noswitch #weechat
+2019-03-08 01:02:14		[irc]  /join  [-noswitch] [-server <server>] [<channel1>[,<channel2>...]] [<key1>[,<key2>...]]
+2019-03-08 01:02:14		join a channel
+2019-03-08 01:02:14		-noswitch: do not switch to new buffer
+2019-03-08 01:02:14		   server: send to this server (internal name)
+2019-03-08 01:02:14		  channel: channel name to join
+2019-03-08 01:02:14		      key: key to join the channel (channels with a key must be the first in list)
+2019-03-08 01:02:14		Examples:
+2019-03-08 01:02:14		  /join #weechat
+2019-03-08 01:02:14		  /join #protectedchan,#weechat key
+2019-03-08 01:02:14		  /join -server freenode #weechat
+2019-03-08 01:02:14		  /join -noswitch #weechat
+2019-03-08 01:04:23		Option changed: weechat.bar.status.items = "[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+{buffer_nicklist_count}+buffer_filter,[hotlist],completion,scroll,slack_typing_notice"  (default: "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion")
+2019-03-08 01:05:46		Slack commands:
+2019-03-08 01:05:46		away:
+2019-03-08 01:05:46		    /slack away
+2019-03-08 01:05:46		    Sets your status as 'away'.
+2019-03-08 01:05:46		back:
+2019-03-08 01:05:46		    /slack back
+2019-03-08 01:05:46		    Sets your status as 'back'.
+2019-03-08 01:05:46		channels:
+2019-03-08 01:05:46		    /slack channels
+2019-03-08 01:05:46		    List the channels in the current team.
+2019-03-08 01:05:46		distracting:
+2019-03-08 01:05:46		    /slack distracting
+2019-03-08 01:05:46		    Add or remove the current channel from distracting channels. You can hide
+2019-03-08 01:05:46		    or unhide these channels with /slack nodistractions.
+2019-03-08 01:05:46		help:
+2019-03-08 01:05:46		    /slack help
+2019-03-08 01:05:46		    Print help for /slack commands.
+2019-03-08 01:05:46		hide:
+2019-03-08 01:05:46		    /hide
+2019-03-08 01:05:46		    Hide the current channel if it is marked as distracting.
+2019-03-08 01:05:46		label:
+2019-03-08 01:05:46		    /label <name>
+2019-03-08 01:05:46		    Rename a thread buffer. Note that this is not permanent. It will only last
+2019-03-08 01:05:46		    as long as you keep the buffer and wee-slack open.
+2019-03-08 01:05:46		linkarchive:
+2019-03-08 01:05:46		    /slack linkarchive [message_id]
+2019-03-08 01:05:46		    Place a link to the channel or message in the input bar.
+2019-03-08 01:05:46		    Use cursor or mouse mode to get the id.
+2019-03-08 01:05:46		mute:
+2019-03-08 01:05:46		    /slack mute
+2019-03-08 01:05:46		    Toggle mute on the current channel.
+2019-03-08 01:05:46		nodistractions:
+2019-03-08 01:05:46		    /slack nodistractions
+2019-03-08 01:05:46		    Hide or unhide all channels marked as distracting.
+2019-03-08 01:05:46		register:
+2019-03-08 01:05:46		    /slack register
+2019-03-08 01:05:46		    Register a Slack team in wee-slack.
+2019-03-08 01:05:46		rehistory:
+2019-03-08 01:05:46		    /rehistory
+2019-03-08 01:05:46		    Reload the history in the current channel.
+2019-03-08 01:05:46		reply:
+2019-03-08 01:05:46		    /reply <count/message_id> <text>
+2019-03-08 01:05:46		    Reply in a thread on the message. Specify either the message id
+2019-03-08 01:05:46		    or a count upwards to the message from the last message.
+2019-03-08 01:05:46		showmuted:
+2019-03-08 01:05:46		    /slack showmuted
+2019-03-08 01:05:46		    List the muted channels in the current team.
+2019-03-08 01:05:46		slash:
+2019-03-08 01:05:46		    /slack slash /customcommand arg1 arg2 arg3
+2019-03-08 01:05:46		    Run a custom slack command.
+2019-03-08 01:05:46		status:
+2019-03-08 01:05:46		    /slack status [emoji [status_message]]
+2019-03-08 01:05:46		    Lets you set your Slack Status (not to be confused with away/here).
+2019-03-08 01:05:46		talk:
+2019-03-08 01:05:46		    /slack talk <user>[,<user2>[,<user3>...]]
+2019-03-08 01:05:46		    Open a chat with the specified user(s).
+2019-03-08 01:05:46		thread:
+2019-03-08 01:05:46		    /thread [message_id]
+2019-03-08 01:05:46		    Open the thread for the message.
+2019-03-08 01:05:46		    If no message id is specified the last thread in channel will be opened.
+2019-03-08 01:05:46		upload:
+2019-03-08 01:05:46		    /slack upload <filename>
+2019-03-08 01:05:46		    Uploads a file to the current buffer.
+2019-03-08 01:05:46		users:
+2019-03-08 01:05:46		    /slack users
+2019-03-08 01:05:46		    List the users in the current team.
+2019-03-08 01:08:26		Slack commands:
+2019-03-08 01:08:26		away:
+2019-03-08 01:08:26		    /slack away
+2019-03-08 01:08:26		    Sets your status as 'away'.
+2019-03-08 01:08:26		back:
+2019-03-08 01:08:26		    /slack back
+2019-03-08 01:08:26		    Sets your status as 'back'.
+2019-03-08 01:08:26		channels:
+2019-03-08 01:08:26		    /slack channels
+2019-03-08 01:08:26		    List the channels in the current team.
+2019-03-08 01:08:26		distracting:
+2019-03-08 01:08:26		    /slack distracting
+2019-03-08 01:08:26		    Add or remove the current channel from distracting channels. You can hide
+2019-03-08 01:08:26		    or unhide these channels with /slack nodistractions.
+2019-03-08 01:08:26		help:
+2019-03-08 01:08:26		    /slack help
+2019-03-08 01:08:26		    Print help for /slack commands.
+2019-03-08 01:08:26		hide:
+2019-03-08 01:08:26		    /hide
+2019-03-08 01:08:26		    Hide the current channel if it is marked as distracting.
+2019-03-08 01:08:26		label:
+2019-03-08 01:08:26		    /label <name>
+2019-03-08 01:08:26		    Rename a thread buffer. Note that this is not permanent. It will only last
+2019-03-08 01:08:26		    as long as you keep the buffer and wee-slack open.
+2019-03-08 01:08:26		linkarchive:
+2019-03-08 01:08:26		    /slack linkarchive [message_id]
+2019-03-08 01:08:26		    Place a link to the channel or message in the input bar.
+2019-03-08 01:08:26		    Use cursor or mouse mode to get the id.
+2019-03-08 01:08:26		mute:
+2019-03-08 01:08:26		    /slack mute
+2019-03-08 01:08:26		    Toggle mute on the current channel.
+2019-03-08 01:08:26		nodistractions:
+2019-03-08 01:08:26		    /slack nodistractions
+2019-03-08 01:08:26		    Hide or unhide all channels marked as distracting.
+2019-03-08 01:08:26		register:
+2019-03-08 01:08:26		    /slack register
+2019-03-08 01:08:26		    Register a Slack team in wee-slack.
+2019-03-08 01:08:26		rehistory:
+2019-03-08 01:08:26		    /rehistory
+2019-03-08 01:08:26		    Reload the history in the current channel.
+2019-03-08 01:08:26		reply:
+2019-03-08 01:08:26		    /reply <count/message_id> <text>
+2019-03-08 01:08:26		    Reply in a thread on the message. Specify either the message id
+2019-03-08 01:08:26		    or a count upwards to the message from the last message.
+2019-03-08 01:08:26		showmuted:
+2019-03-08 01:08:26		    /slack showmuted
+2019-03-08 01:08:26		    List the muted channels in the current team.
+2019-03-08 01:08:26		slash:
+2019-03-08 01:08:26		    /slack slash /customcommand arg1 arg2 arg3
+2019-03-08 01:08:26		    Run a custom slack command.
+2019-03-08 01:08:26		status:
+2019-03-08 01:08:26		    /slack status [emoji [status_message]]
+2019-03-08 01:08:26		    Lets you set your Slack Status (not to be confused with away/here).
+2019-03-08 01:08:26		talk:
+2019-03-08 01:08:26		    /slack talk <user>[,<user2>[,<user3>...]]
+2019-03-08 01:08:26		    Open a chat with the specified user(s).
+2019-03-08 01:08:26		thread:
+2019-03-08 01:08:26		    /thread [message_id]
+2019-03-08 01:08:26		    Open the thread for the message.
+2019-03-08 01:08:26		    If no message id is specified the last thread in channel will be opened.
+2019-03-08 01:08:26		upload:
+2019-03-08 01:08:26		    /slack upload <filename>
+2019-03-08 01:08:26		    Uploads a file to the current buffer.
+2019-03-08 01:08:26		users:
+2019-03-08 01:08:26		    /slack users
+2019-03-08 01:08:26		    List the users in the current team.
+2019-03-08 01:09:56		ERROR: Unknown channel: #social-irl

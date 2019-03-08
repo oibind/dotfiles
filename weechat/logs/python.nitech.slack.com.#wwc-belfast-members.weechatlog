@@ -1,0 +1,8 @@
+2019-03-08 00:51:12		getting channel history...
+2019-03-01 09:47:37	Desy	https://nitech.slack.com/archives/C4KU05S04/p1551433367001800?thread_ts=1551433367001800&cid=C4KU05S04
+2019-03-01 09:47:37		Desy Kristianti: LAST CALL! :mega:
+2019-03-01 09:47:37		Would you like to learn the secrets to speaking at tech conferences from 9 amazing mentors including keynote & international speakers, NI Dev Conf & WTM Summit organisers, and more?
+2019-03-01 09:47:37		Join GDCFP Day Belfast this Saturday at Allstate!
+2019-03-01 09:47:37		RSVP here https://www.eventbrite.com/e/global-diversity-cfp-call-for-proposals-day-belfast-2019-registration-54883099829?aff=nitd
+2019-03-01 09:47:37		(See thread for more info)
+2019-03-08 00:54:50	oibind	/set plugins.var.python.slack.slack_api_token ${sec.data.slack_fl},${sec.data.slack_nitech}

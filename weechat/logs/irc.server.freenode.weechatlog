@@ -1,0 +1,283 @@
+2019-03-08 00:20:06	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2019-03-08 00:20:06	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2019-03-08 00:20:06	--	gnutls: receiving 2 certificates
+2019-03-08 00:20:06	--	 - certificate[1] info:
+2019-03-08 00:20:06	--	   - subject `CN=moon.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0314a843512890b4d570169927b1dcb46cc0, RSA key 4096 bits, signed using RSA-SHA256, activated `2019-01-28 05:01:34 UTC', expires `2019-04-28 05:01:34 UTC', pin-sha256="CqI0jeD7wEejQQ0BFjZhYP/VIEgy7fhy8rKRxMp8YAY="
+2019-03-08 00:20:06	--	 - certificate[2] info:
+2019-03-08 00:20:06	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2019-03-08 00:20:06	--	gnutls: peer's certificate is trusted
+2019-03-08 00:20:07	--	irc: connected to chat.freenode.net/7000 (173.230.128.213)
+2019-03-08 00:20:07	--	moon.freenode.net: *** Looking up your hostname...
+2019-03-08 00:20:07	--	moon.freenode.net: *** Checking Ident
+2019-03-08 00:20:07	--	moon.freenode.net: *** Found your hostname
+2019-03-08 00:20:13	--	moon.freenode.net: *** No Ident response
+2019-03-08 00:20:13	--	irc: client capability, server supports: extended-join multi-prefix identify-msg account-notify sasl
+2019-03-08 00:20:13	--	irc: client capability, requesting: sasl
+2019-03-08 00:20:13	--	irc: client capability, enabled: sasl
+2019-03-08 00:20:14	--	You are now logged in as oibind. (oibind!oibind@unaffiliated/oibind)
+2019-03-08 00:20:14	--	SASL authentication successful
+2019-03-08 00:20:15	--	Welcome to the freenode Internet Relay Chat Network oibind
+2019-03-08 00:20:15	--	Your host is moon.freenode.net[173.230.128.213/7000], running version ircd-seven-1.1.7
+2019-03-08 00:20:15	--	This server was created Tue Sep 25 2018 at 13:20:37 UTC
+2019-03-08 00:20:15	--	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-03-08 00:20:15	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-03-08 00:20:15	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+2019-03-08 00:20:15	--	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+2019-03-08 00:20:15	--	There are 108 users and 87044 invisible on 34 servers
+2019-03-08 00:20:15	--	35 :IRC Operators online
+2019-03-08 00:20:15	--	16 :unknown connection(s)
+2019-03-08 00:20:15	--	51938 :channels formed
+2019-03-08 00:20:15	--	I have 3853 clients and 1 servers
+2019-03-08 00:20:15	--	3853 4292 :Current local users 3853, max 4292
+2019-03-08 00:20:15	--	87152 91205 :Current global users 87152, max 91205
+2019-03-08 00:20:15	--	Highest connection count: 4293 (4292 clients) (52823 connections received)
+2019-03-08 00:20:15	--	- moon.freenode.net Message of the Day -
+2019-03-08 00:20:15	--	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+2019-03-08 00:20:15	--	- Linode for sponsoring this server!
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- MOON, ELIZABETH (1945-) Born in South Texas, USA,
+2019-03-08 00:20:15	--	- Elizabeth Moon is an American science fiction and fantasy
+2019-03-08 00:20:15	--	- author with over 20 published works. Her novel The Speed
+2019-03-08 00:20:15	--	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- Welcome to freenode - supporting the free and open source
+2019-03-08 00:20:15	--	- software communities since 1998.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- By connecting to freenode you indicate that you have read and
+2019-03-08 00:20:15	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- In the event that you observe behaviour that contravenes our policies,
+2019-03-08 00:20:15	--	- please notify a volunteer staff member via private message, or send us an
+2019-03-08 00:20:15	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-03-08 00:20:15	--	- situation within a reasonable period of time, and we may request further
+2019-03-08 00:20:15	--	- information or, as appropriate, involve other parties such as channel operators
+2019-03-08 00:20:15	--	- Group Contacts representing an on-topic group.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- freenode runs an open proxy scanner.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- If you are looking for assistance, you may be able to find a list of
+2019-03-08 00:20:15	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2019-03-08 00:20:15	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-03-08 00:20:15	--	- any of us at any time. Please note that freenode predominantly provides
+2019-03-08 00:20:15	--	- assistance via private message, and while we have a network channel the
+2019-03-08 00:20:15	--	- primary venue for support requests is via private message to a member
+2019-03-08 00:20:15	--	- of the volunteer staff team.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-03-08 00:20:15	--	- the project, or the communities that we host. The majority of such notices
+2019-03-08 00:20:15	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-03-08 00:20:15	--	- do not miss them. Important messages relating to the freenode project, including
+2019-03-08 00:20:15	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-03-08 00:20:15	--	- global notices.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- Representing an on-topic project? Don't forget to register, more information
+2019-03-08 00:20:15	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-03-08 00:20:15	--	- network going for close to two decades.
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-03-08 00:20:15	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-03-08 00:20:15	--	- https://freenode.net/news/live-2018
+2019-03-08 00:20:15	--	-
+2019-03-08 00:20:15	--	- Thank you for using freenode!
+2019-03-08 00:20:15	--	End of /MOTD command.
+2019-03-08 00:20:15	--	User mode [+Zi] by oibind
+2019-03-08 00:20:15	--	SaslServ (SaslServ@services.): 1 failed login since last login.
+2019-03-08 00:20:15	--	SaslServ (SaslServ@services.): Last failed attempt from: oibind!~oibind@cpc76434-belc8-2-0-cust1967.2-1.cable.virginm.net on Mar 08 00:09:58 2019.
+2019-03-08 00:20:15	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-03-08 00:20:15	--	CTCP requested by freenode-connect: VERSION
+2019-03-08 00:20:15	--	CTCP reply to freenode-connect: VERSION WeeChat 2.4 (Feb 19 2019 15:53:28)
+2019-03-08 00:20:30	--	freenode: No such channel
+2019-03-08 00:29:00	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2019-03-08 00:29:00	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2019-03-08 00:29:00	--	gnutls: receiving 2 certificates
+2019-03-08 00:29:00	--	 - certificate[1] info:
+2019-03-08 00:29:00	--	   - subject `CN=weber.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033312bb3a087587cc8069294791778d653c, RSA key 4096 bits, signed using RSA-SHA256, activated `2019-02-25 05:01:34 UTC', expires `2019-05-26 05:01:34 UTC', pin-sha256="aB8n4a9u10zW+UfXS+6aqpJzVNPFIA6rOjwP1CDaRQU="
+2019-03-08 00:29:00	--	 - certificate[2] info:
+2019-03-08 00:29:00	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2019-03-08 00:29:00	--	gnutls: peer's certificate is trusted
+2019-03-08 00:29:01	--	irc: connected to chat.freenode.net/7000 (162.213.39.42)
+2019-03-08 00:29:01	--	weber.freenode.net: *** Looking up your hostname...
+2019-03-08 00:29:01	--	weber.freenode.net: *** Checking Ident
+2019-03-08 00:29:01	--	weber.freenode.net: *** Found your hostname
+2019-03-08 00:29:07	--	weber.freenode.net: *** No Ident response
+2019-03-08 00:29:07	--	irc: client capability, server supports: extended-join multi-prefix identify-msg account-notify sasl
+2019-03-08 00:29:07	--	irc: client capability, requesting: sasl
+2019-03-08 00:29:07	--	irc: client capability, enabled: sasl
+2019-03-08 00:29:08	--	You are now logged in as oibind. (oibind!oibind@unaffiliated/oibind)
+2019-03-08 00:29:08	--	SASL authentication successful
+2019-03-08 00:29:09	--	Welcome to the freenode Internet Relay Chat Network oibind
+2019-03-08 00:29:09	--	Your host is weber.freenode.net[162.213.39.42/7000], running version ircd-seven-1.1.7
+2019-03-08 00:29:09	--	This server was created Fri Feb 22 2019 at 19:46:41 UTC
+2019-03-08 00:29:09	--	weber.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-03-08 00:29:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-03-08 00:29:09	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2019-03-08 00:29:09	--	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2019-03-08 00:29:09	--	There are 108 users and 86994 invisible on 34 servers
+2019-03-08 00:29:09	--	35 :IRC Operators online
+2019-03-08 00:29:09	--	8 :unknown connection(s)
+2019-03-08 00:29:09	--	51920 :channels formed
+2019-03-08 00:29:09	--	I have 3923 clients and 1 servers
+2019-03-08 00:29:09	--	3923 5799 :Current local users 3923, max 5799
+2019-03-08 00:29:09	--	87102 93461 :Current global users 87102, max 93461
+2019-03-08 00:29:09	--	Highest connection count: 5800 (5799 clients) (192886 connections received)
+2019-03-08 00:29:09	--	- weber.freenode.net Message of the Day -
+2019-03-08 00:29:09	--	- Welcome to weber.freenode.net in California, USA.
+2019-03-08 00:29:09	--	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2019-03-08 00:29:09	--	- this server!
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2019-03-08 00:29:09	--	- author. Best known for his 'Honor Harrington' series, his
+2019-03-08 00:29:09	--	- works span several genres, including alternate history,
+2019-03-08 00:29:09	--	- epic fantasy, military scifi and space opera. He's also
+2019-03-08 00:29:09	--	- done wargame design mainly for the StarFire tabletop
+2019-03-08 00:29:09	--	- boardgame series, a job which later evolved into the novel,
+2019-03-08 00:29:09	--	- 'Insurrection' (collaboration with Steve White, published
+2019-03-08 00:29:09	--	- in 1990).
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- Welcome to freenode - supporting the free and open source
+2019-03-08 00:29:09	--	- software communities since 1998.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- By connecting to freenode you indicate that you have read and
+2019-03-08 00:29:09	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- In the event that you observe behaviour that contravenes our policies,
+2019-03-08 00:29:09	--	- please notify a volunteer staff member via private message, or send us an
+2019-03-08 00:29:09	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-03-08 00:29:09	--	- situation within a reasonable period of time, and we may request further
+2019-03-08 00:29:09	--	- information or, as appropriate, involve other parties such as channel operators
+2019-03-08 00:29:09	--	- Group Contacts representing an on-topic group.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- freenode runs an open proxy scanner.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- If you are looking for assistance, you may be able to find a list of
+2019-03-08 00:29:09	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2019-03-08 00:29:09	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-03-08 00:29:09	--	- any of us at any time. Please note that freenode predominantly provides
+2019-03-08 00:29:09	--	- assistance via private message, and while we have a network channel the
+2019-03-08 00:29:09	--	- primary venue for support requests is via private message to a member
+2019-03-08 00:29:09	--	- of the volunteer staff team.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-03-08 00:29:09	--	- the project, or the communities that we host. The majority of such notices
+2019-03-08 00:29:09	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-03-08 00:29:09	--	- do not miss them. Important messages relating to the freenode project, including
+2019-03-08 00:29:09	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-03-08 00:29:09	--	- global notices.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- Representing an on-topic project? Don't forget to register, more information
+2019-03-08 00:29:09	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-03-08 00:29:09	--	- network going for close to two decades.
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-03-08 00:29:09	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-03-08 00:29:09	--	- https://freenode.net/news/live-2018
+2019-03-08 00:29:09	--	-
+2019-03-08 00:29:09	--	- Thank you for using freenode!
+2019-03-08 00:29:09	--	End of /MOTD command.
+2019-03-08 00:29:09	--	User mode [+Zi] by oibind
+2019-03-08 00:29:09	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-03-08 00:29:09	--	CTCP requested by freenode-connect: VERSION
+2019-03-08 00:29:09	--	CTCP reply to freenode-connect: VERSION WeeChat 2.4 (Feb 19 2019 15:53:28)
+2019-03-08 00:29:19	--	[oibind] (~oibind@unaffiliated/oibind): Aoibhinn Nic Aoidh
+2019-03-08 00:29:19	--	[oibind] #freenode #archlinux
+2019-03-08 00:29:19	--	[oibind] weber.freenode.net (US)
+2019-03-08 00:29:19	--	[oibind] is using a secure connection
+2019-03-08 00:29:19	--	[oibind] is connecting from *@cpc76434-belc8-2-0-cust1967.2-1.cable.virginm.net 81.109.55.176
+2019-03-08 00:29:19	--	[oibind] idle: 00 hours 00 minutes 11 seconds, signon at: Fri, 08 Mar 2019 00:29:08
+2019-03-08 00:29:19	--	[oibind] is logged in as oibind
+2019-03-08 00:29:19	--	[oibind] End of /WHOIS list.
+2019-03-08 01:00:13	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2019-03-08 01:00:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2019-03-08 01:00:13	--	gnutls: receiving 2 certificates
+2019-03-08 01:00:13	--	 - certificate[1] info:
+2019-03-08 01:00:13	--	   - subject `CN=hitchcock.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039a02e8d17ea52f33f9f1ad8af295f39e5e, RSA key 4096 bits, signed using RSA-SHA256, activated `2019-02-25 05:02:56 UTC', expires `2019-05-26 05:02:56 UTC', pin-sha256="vZJAIo5AYL1gCFnDY7pnJuI36vKceDjc2YuwijS7m80="
+2019-03-08 01:00:13	--	 - certificate[2] info:
+2019-03-08 01:00:13	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2019-03-08 01:00:13	--	gnutls: peer's certificate is trusted
+2019-03-08 01:00:13	--	irc: connected to chat.freenode.net/7000 (130.185.232.126)
+2019-03-08 01:00:13	--	hitchcock.freenode.net: *** Looking up your hostname...
+2019-03-08 01:00:13	--	hitchcock.freenode.net: *** Checking Ident
+2019-03-08 01:00:13	--	hitchcock.freenode.net: *** Found your hostname
+2019-03-08 01:00:23	--	hitchcock.freenode.net: *** No Ident response
+2019-03-08 01:00:23	--	irc: client capability, server supports: extended-join multi-prefix identify-msg account-notify sasl
+2019-03-08 01:00:23	--	irc: client capability, requesting: sasl
+2019-03-08 01:00:23	--	irc: client capability, enabled: sasl
+2019-03-08 01:00:24	--	You are now logged in as oibind. (oibind!oibind@unaffiliated/oibind)
+2019-03-08 01:00:24	--	SASL authentication successful
+2019-03-08 01:00:25	--	Welcome to the freenode Internet Relay Chat Network oibind
+2019-03-08 01:00:25	--	Your host is hitchcock.freenode.net[130.185.232.126/7000], running version ircd-seven-1.1.7
+2019-03-08 01:00:25	--	This server was created Sun Aug 19 2018 at 16:38:06 UTC
+2019-03-08 01:00:25	--	hitchcock.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-03-08 01:00:25	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-03-08 01:00:25	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX SAFELIST ELIST=CTU :are supported by this server
+2019-03-08 01:00:25	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2019-03-08 01:00:25	--	There are 108 users and 86801 invisible on 34 servers
+2019-03-08 01:00:25	--	35 :IRC Operators online
+2019-03-08 01:00:25	--	67 :unknown connection(s)
+2019-03-08 01:00:25	--	51895 :channels formed
+2019-03-08 01:00:25	--	I have 3817 clients and 1 servers
+2019-03-08 01:00:25	--	3817 6368 :Current local users 3817, max 6368
+2019-03-08 01:00:25	--	86909 94264 :Current global users 86909, max 94264
+2019-03-08 01:00:25	--	Highest connection count: 6369 (6368 clients) (2065117 connections received)
+2019-03-08 01:00:25	--	- hitchcock.freenode.net Message of the Day -
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2019-03-08 01:00:25	--	- Elemental TV (www.elemental.tv)
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2019-03-08 01:00:25	--	- England, Sir Alfred Hitchcock was a noted film director
+2019-03-08 01:00:25	--	- and producer. Over a long career he pioneered many modern
+2019-03-08 01:00:25	--	- techniques in film-making, made more than 50 feature films,
+2019-03-08 01:00:25	--	- and influenced many present-day directors and producers.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Welcome to freenode - supporting the free and open source
+2019-03-08 01:00:25	--	- software communities since 1998.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- By connecting to freenode you indicate that you have read and
+2019-03-08 01:00:25	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- In the event that you observe behaviour that contravenes our policies,
+2019-03-08 01:00:25	--	- please notify a volunteer staff member via private message, or send us an
+2019-03-08 01:00:25	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-03-08 01:00:25	--	- situation within a reasonable period of time, and we may request further
+2019-03-08 01:00:25	--	- information or, as appropriate, involve other parties such as channel operators
+2019-03-08 01:00:25	--	- Group Contacts representing an on-topic group.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- freenode runs an open proxy scanner.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- If you are looking for assistance, you may be able to find a list of
+2019-03-08 01:00:25	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2019-03-08 01:00:25	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-03-08 01:00:25	--	- any of us at any time. Please note that freenode predominantly provides
+2019-03-08 01:00:25	--	- assistance via private message, and while we have a network channel the
+2019-03-08 01:00:25	--	- primary venue for support requests is via private message to a member
+2019-03-08 01:00:25	--	- of the volunteer staff team.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-03-08 01:00:25	--	- the project, or the communities that we host. The majority of such notices
+2019-03-08 01:00:25	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-03-08 01:00:25	--	- do not miss them. Important messages relating to the freenode project, including
+2019-03-08 01:00:25	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-03-08 01:00:25	--	- global notices.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Representing an on-topic project? Don't forget to register, more information
+2019-03-08 01:00:25	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-03-08 01:00:25	--	- network going for close to two decades.
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-03-08 01:00:25	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-03-08 01:00:25	--	- https://freenode.net/news/live-2018
+2019-03-08 01:00:25	--	-
+2019-03-08 01:00:25	--	- Thank you for using freenode!
+2019-03-08 01:00:25	--	End of /MOTD command.
+2019-03-08 01:00:25	--	User mode [+Zi] by oibind
+2019-03-08 01:00:25	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-03-08 01:00:25	--	CTCP requested by freenode-connect: VERSION
+2019-03-08 01:00:25	--	CTCP reply to freenode-connect: VERSION WeeChat 2.4 (Feb 19 2019 15:53:28)
+2019-03-08 01:02:11	--	help: No such channel

@@ -1,0 +1,190 @@
+2019-03-08 00:20:21	-->	oibind (~oibind@unaffiliated/oibind) has joined #archlinux
+2019-03-08 00:20:21	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: see !paste | https://i.imgflip.com/nwm8q.jpg"
+2019-03-08 00:20:21	--	Topic set by phrik (phrik@archlinux/bot/phrik) on Sun, 24 Feb 2019 17:26:35
+2019-03-08 00:20:21	--	Channel #archlinux: 1838 nicks (2 ops, 0 voices, 1836 normals)
+2019-03-08 00:20:21	--	Channel created on Sun, 15 Feb 2004 05:08:31
+2019-03-08 00:20:31	<--	dfs (~danilo@freebsd/user/dfs) has quit (Ping timeout: 246 seconds)
+2019-03-08 00:22:55	<--	angryrobot (darkstarde@gateway/vpn/privateinternetaccess/darkstardevx) has quit (Remote host closed the connection)
+2019-03-08 00:23:11	-->	angryrobot (darkstarde@gateway/vpn/privateinternetaccess/darkstardevx) has joined #archlinux
+2019-03-08 00:23:15	-->	angryrobotdev (darkstarde@gateway/vpn/privateinternetaccess/darkstardevx) has joined #archlinux
+2019-03-08 00:23:28	-->	h4rd3n3D (~weechat@gateway/tor-sasl/h4rd3n3d) has joined #archlinux
+2019-03-08 00:24:17	<--	chaky (~chaky@gateway/tor-sasl/chaky) has quit (Ping timeout: 256 seconds)
+2019-03-08 00:24:57	<--	Diemuzi (~IceChat9@unaffiliated/diemuzi) has quit (Quit: See you on the flip side!)
+2019-03-08 00:24:57	<--	pauper (~pauper@186.19.201.66) has quit (Read error: Connection reset by peer)
+2019-03-08 00:25:26	-->	Diemuzi (~IceChat9@unaffiliated/diemuzi) has joined #archlinux
+2019-03-08 00:25:28	-->	pauper (~pauper@186.19.201.66) has joined #archlinux
+2019-03-08 00:26:33	<--	h4rd3n3D_ (~weechat@gateway/tor-sasl/h4rd3n3d) has quit (Ping timeout: 256 seconds)
+2019-03-08 00:29:15	-->	oibind (~oibind@unaffiliated/oibind) has joined #archlinux
+2019-03-08 00:29:15	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: see !paste | https://i.imgflip.com/nwm8q.jpg"
+2019-03-08 00:29:15	--	Topic set by phrik (phrik@archlinux/bot/phrik) on Sun, 24 Feb 2019 17:26:35
+2019-03-08 00:29:15	--	Channel #archlinux: 1835 nicks (2 ops, 0 voices, 1833 normals)
+2019-03-08 00:29:15	--	Channel created on Sun, 15 Feb 2004 05:08:31
+2019-03-08 00:29:44	<--	SimpleBrain (~simp@34.187.125.91.dyn.plus.net) has quit (Ping timeout: 255 seconds)
+2019-03-08 00:29:44	CyberShadow	Well, I had to make that choice a few years ago, currently all my data is in btrfs snapshots. I might migrate to ZOL at some point in the future, certainly after 0.8. ZOL has a bunch of missing features compared to btrfs like shrinking, file range cloning, and more flexible snapshots. The other issue is being out-of-tree, which complicates rescuing systems esp. over KVM or such.
+2019-03-08 00:29:56	vvor	I'm with btrfs but would never put it on top of lvm. Checking out ZOL for missing stuff on btrfs.
+2019-03-08 00:29:58	<--	motte (~weechat@unaffiliated/motte) has quit (Quit: WeeChat 1.9.1)
+2019-03-08 00:30:02	-->	Lord_of_Life (~Lord@unaffiliated/lord-of-life/x-0885362) has joined #archlinux
+2019-03-08 00:30:52	vvor	And encryption.
+2019-03-08 00:30:56	jamespharvey20	I've used BTRFS on top of LVM for years without issue, just never lvm-snapshotting.  Only reason is for thin pools.
+2019-03-08 00:31:03	<--	grumpey (~grumpey@2600:1003:b44a:cfba:a3f1:327e:d46f:790b) has quit (Quit: WeeChat 2.2)
+2019-03-08 00:31:12	vvor	At least soon to be stable.
+2019-03-08 00:31:24	CyberShadow	I literally had to create an ext4 partition on my server just to get reasonable performance out of a certain application (database file), even after making the file no-cow. btrfs sync locks can murder performance.
+2019-03-08 00:31:28	<--	smantha (~smantha@unaffiliated/smantha) has quit (Quit: goodbye!! o7)
+2019-03-08 00:31:46	CyberShadow	FWIW I don't intend to use LVM for snapshotting, just partitioning.
+2019-03-08 00:32:41	-->	motte (~weechat@unaffiliated/motte) has joined #archlinux
+2019-03-08 00:32:41	jamespharvey20	same.  yeah, lvm snapshots will kill btrfs because the btrfs gids are duplicated, and btrfs doesn't look for that.
+2019-03-08 00:32:44	<--	plusone (~plusone@97e2a02a.skybroadband.com) has quit (Quit: plusone)
+2019-03-08 00:33:26	-->	sadmansk (~Thunderbi@toroon0335w-lp130-03-174-93-84-52.dsl.bell.ca) has joined #archlinux
+2019-03-08 00:33:31	-->	rishi_ (~rishi@cpe-70-95-193-58.san.res.rr.com) has joined #archlinux
+2019-03-08 00:33:45	rishi_	hello
+2019-03-08 00:34:03	jamespharvey20	!give rishi_ welcome
+2019-03-08 00:34:05	@phrik	rishi_: Welcome to #archlinux, tell us how you fucked up.
+2019-03-08 00:34:29	vvor	For sure not snapshots, but way partitioning? The hole purpose of the new kids in town is to do that?
+2019-03-08 00:34:40	<--	unpro (63692115@gateway/web/freenode/ip.99.105.33.21) has quit (Quit: Page closed)
+2019-03-08 00:34:47	rishi_	im sorry, i just realized the correct channel is archlinux-offtopic
+2019-03-08 00:34:49	<--	throstur (~throstur@unaffiliated/throstur) has quit (Quit: WeeChat 2.3)
+2019-03-08 00:35:42	<--	angryrobot (darkstarde@gateway/vpn/privateinternetaccess/darkstardevx) has quit (Quit: Leaving)
+2019-03-08 00:35:48	CyberShadow	Well it doesn't make sense if you don't have anything under LVM, but in my case it's LUKS + mdadm RAID (but I'm still thinking that over).
+2019-03-08 00:36:34	angryrobotdev	welcome back neneal
+2019-03-08 00:36:42	CyberShadow	I guess future proofing is an argument as well.
+2019-03-08 00:36:58	<--	rishi_ (~rishi@cpe-70-95-193-58.san.res.rr.com) has quit (Quit: leaving)
+2019-03-08 00:37:56	-->	chaky (~chaky@gateway/tor-sasl/chaky) has joined #archlinux
+2019-03-08 00:37:56	<--	chozen (~chozen@209.159.251.198) has quit (Remote host closed the connection)
+2019-03-08 00:39:00	vvor	I think it is a no brainer if you go with the new ones --btrfs ZOL, you go all the way. Unless you need encrypting.
+2019-03-08 00:39:21	CyberShadow	What's "--btrfs ZOL"?
+2019-03-08 00:39:31	vvor	And it is not supported yet.
+2019-03-08 00:39:48	mryandao	lol, the welcome message...
+2019-03-08 00:39:53	mryandao	!give mryandao welcome
+2019-03-08 00:39:55	@phrik	mryandao: Welcome to #archlinux, tell us how you fucked up.
+2019-03-08 00:40:21	<--	ChrisLane (~irc@cpc119606-heme14-2-0-cust161.9-1.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2019-03-08 00:40:39	vvor	CyberShadow: BTRF or ZOL
+2019-03-08 00:40:58	vvor	The new file systems I meant.
+2019-03-08 00:41:31	s00pcan	ok this ZOL is new to me
+2019-03-08 00:41:35	-->	ChrisLane (~irc@cpc119606-heme14-2-0-cust161.9-1.cable.virginm.net) has joined #archlinux
+2019-03-08 00:41:48	s00pcan	oh zfs on linux
+2019-03-08 00:41:49	jamespharvey20	zfs on linux
+2019-03-08 00:41:58	-->	[b0b] (~bob@unaffiliated/sulfyr) has joined #archlinux
+2019-03-08 00:42:19	s00pcan	I'm still using btrfs but yeah slow
+2019-03-08 00:42:29	-->	EGStein (~ethan@c-73-211-228-131.hsd1.il.comcast.net) has joined #archlinux
+2019-03-08 00:42:34	neneal	angryrobotdev: thanks
+2019-03-08 00:42:43	morf	i decided all those other fs are garbage and use ext4
+2019-03-08 00:42:50	morf	it's just too annoying 
+2019-03-08 00:42:55	morf	like the features are nice
+2019-03-08 00:42:59	morf	but dealing with it is not
+2019-03-08 00:43:07	angryrobotdev	neneal are you a coder?
+2019-03-08 00:43:11	EGStein	Hey, so I've installed cinnamon and I wanted to change the menu icon to the icon of the program
+2019-03-08 00:43:11	s00pcan	having one big device with redundancy is nice
+2019-03-08 00:43:23	<--	Tr4sK (~Tr4sK@lfbn-tou-1-86-254.w86-201.abo.wanadoo.fr) has quit (Ping timeout: 245 seconds)
+2019-03-08 00:43:27	s00pcan	last time I boot it didn't make the 90s mount timeout though
+2019-03-08 00:43:36	<--	b0b (~bob@unaffiliated/sulfyr) has quit (Ping timeout: 250 seconds)
+2019-03-08 00:43:38	--	[b0b] is now known as b0b
+2019-03-08 00:44:00	<--	Narrat (~Narrat@p2E511DDB.dip0.t-ipconnect.de) has quit (Quit: They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance.)
+2019-03-08 00:44:24	s00pcan	(that's with four drives)
+2019-03-08 00:44:34	<--	adray (~aray@159.65.34.34) has quit (Quit: WeeChat 2.4)
+2019-03-08 00:44:37	angryrobotdev	3.48 sec with 4 drives
+2019-03-08 00:44:41	vvor	s00pcan: Slow is not a problem it will get faster I'm sore. But support... out off kernel... maybe I good time to go ZOL.
+2019-03-08 00:45:07	s00pcan	like maybe there is something wrong with my setup, never really looked into it yet
+2019-03-08 00:45:29	vvor	DATA integrate is the kill for me.
+2019-03-08 00:46:24	s00pcan	Mar 05 15:37:57 www systemd[1]: Mounting /media... Mar 05 15:39:27  media.mount: Mounting timed out. Terminating.
+2019-03-08 00:46:33	neneal	angryrobotdev: yes
+2019-03-08 00:46:46	angryrobotdev	neneal what languages?
+2019-03-08 00:47:24	-->	igemnace (~igemnace@120.28.165.200) has joined #archlinux
+2019-03-08 00:47:32	morf	all of them ;) 
+2019-03-08 00:47:36	s00pcan	Mar 05 15:57:32 www systemd[1]: Mounting /media...  Mar 05 15:59:01 www systemd[1]: Mounted /media.
+2019-03-08 00:47:41	s00pcan	clearly something is stupid about this
+2019-03-08 00:47:47	neneal	french and english angryrobotdev 
+2019-03-08 00:48:13	angryrobotdev	neneal coding languages like python etc
+2019-03-08 00:48:13	<--	hen- (~hen@unaffiliated/hen-) has quit (Quit: WeeChat 2.4)
+2019-03-08 00:48:20	neneal	c++ and python
+2019-03-08 00:48:22	EGStein	Basically, I wanna change this: https://my.mixtape.moe/butsze.png into the application icon on cinnamon
+2019-03-08 00:48:40	EGStein	I don't know where that setting is
+2019-03-08 00:48:40	CyberShadow	s00pcan: You can add nofail in fstab and it'll mount in the background. Just make sure any services which need stuff from the volume have a dependency on the mount unit
+2019-03-08 00:48:45	angryrobotdev	neneal any projects on github?
+2019-03-08 00:49:14	CyberShadow	Yes btrfs can sometimes take a long time to mount, especially after a dirty unmount (and unmounting can time out if there was a scrub or balance running)
+2019-03-08 00:49:14	s00pcan	CyberShadow: I have added dependencies to most of my stuff but yeah I need to do that
+2019-03-08 00:49:23	neneal	angryrobotdev: ya but they're private mostly because i'd be doxxed
+2019-03-08 00:49:27	-->	grumpey (~grumpey@2600:1003:b44a:cfba:a3f1:327e:d46f:790b) has joined #archlinux
+2019-03-08 00:49:29	s00pcan	for a while it was getting in at a few seconds under the timeout so I didn't bother :)
+2019-03-08 00:49:43	CyberShadow	There was a bug in systemd that broke nofail, not sure if the fix is shipped in Arch
+2019-03-08 00:49:57	CyberShadow	https://github.com/systemd/systemd/issues/11558
+2019-03-08 00:49:58	@phrik	Title: Regression: nofail no longer causes devices to mount asynchronously · Issue #11558 · systemd/systemd · GitHub (at github.com)
+2019-03-08 00:50:19	s00pcan	not really sure why I didn't have nofail on it already; I knew about it obviously
+2019-03-08 00:50:46	s00pcan	I guess my question is does that mount time seem reasonable with four drives and if not what should I look into
+2019-03-08 00:50:48	<--	grumpey (~grumpey@2600:1003:b44a:cfba:a3f1:327e:d46f:790b) has quit (Client Quit)
+2019-03-08 00:50:50	angryrobotdev	neneal i'm trying to start a project and get some people together
+2019-03-08 00:50:55	neneal	what is it
+2019-03-08 00:51:01	EGStein	Can you guys see this?
+2019-03-08 00:51:10	Namarrgon	nope
+2019-03-08 00:51:10	s00pcan	EGStein: so far, yes
+2019-03-08 00:51:13	jamespharvey20	EGStein: no
+2019-03-08 00:51:14	angryrobotdev	neneal not sure yet
+2019-03-08 00:51:18	<--	yyy- (~yyy@unaffiliated/tinnotl) has quit (Ping timeout: 245 seconds)
+2019-03-08 00:51:24	<--	Guest61121 (~vincent@185.99.139.126) has quit (Quit: Guest61121)
+2019-03-08 00:51:29	angryrobotdev	neneal something Android probably
+2019-03-08 00:51:31	EGStein	Just checking my client
+2019-03-08 00:51:34	neneal	ah
+2019-03-08 00:51:37	neneal	i dont do java
+2019-03-08 00:51:39	neneal	i dont like it
+2019-03-08 00:51:59	s00pcan	neneal: whaa? no way
+2019-03-08 00:52:05	s00pcan	everyone loves java
+2019-03-08 00:52:24	CyberShadow	s00pcan: My big volume takes 80 seconds to mount normally, but can take up to 10 minutes or so after a dirty unmount. So I think it's "normal". (I have a lot of snapshots.)
+2019-03-08 00:52:25	angryrobotdev	neneal no java?
+2019-03-08 00:52:38	--	piie is now known as piiE
+2019-03-08 00:52:50	angryrobotdev	neneal I wanna do C++ but i'm a noob at it lol
+2019-03-08 00:52:52	s00pcan	CyberShadow: yeah this last one was dirty. I don't test reboots often
+2019-03-08 00:52:54	-->	JoshDreamland (~Josh@enigma/joshdreamland) has joined #archlinux
+2019-03-08 00:53:02	-->	gratidude (~gratidude@unaffiliated/gratidude) has joined #archlinux
+2019-03-08 00:53:11	EGStein	So how do I change the menu topbar icon on cinnamon, I changed it before but I forgot where that setting was
+2019-03-08 00:53:24	<--	Arcaelyx (~Arcaelyx@cpe-184-152-1-126.nyc.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2019-03-08 00:53:34	neneal	angryrobotdev: no way to learn until you try
+2019-03-08 00:53:40	soft_cement	I've installed Windows alongside Arch, and of course, Windows shits all over my bootloader and installs its own. So I was thinking of fixing it this way: burn the archiso to a flash drive, chroot into Arch, and install GRUB, use osprober as a lazy way to ensure I can still boot into Windows. ...This should work, right?
+2019-03-08 00:53:57	EGStein	soft_cement: No
+2019-03-08 00:54:06	Namarrgon	soft_cement: uefi or legacy boot?
+2019-03-08 00:54:16	soft_cement	Namarrgon: I believe it's UEFI
+2019-03-08 00:54:19	whislock	s00pcan: Java is fucking trash.
+2019-03-08 00:54:21	angryrobotdev	neneal do you knos BASH?
+2019-03-08 00:54:27	Namarrgon	soft_cement: then just set the grub entry as the default again
+2019-03-08 00:54:28	soft_cement	but don't ask me how to check from inside winblow... er Windows
+2019-03-08 00:54:35	soft_cement	oh, right, yeah.
+2019-03-08 00:54:42	soft_cement	duh. I'm new to this UEFI stuff. thanks!
+2019-03-08 00:54:44	neneal	bash is fairly straight forward, so yeah, more or less
+2019-03-08 00:55:28	angryrobotdev	neneal I built a bash menu script that has all the tools that I use but it's all in one line, 27 options, trying to make it 2 columns
+2019-03-08 00:56:05	-->	Tr4sK (~Tr4sK@lfbn-tou-1-86-254.w86-201.abo.wanadoo.fr) has joined #archlinux
+2019-03-08 00:56:32	-->	dviola (~diego@unaffiliated/dviola) has joined #archlinux
+2019-03-08 00:56:37	EGStein	.exit
+2019-03-08 00:56:40	<--	EGStein (~ethan@c-73-211-228-131.hsd1.il.comcast.net) has quit (Quit: leaving)
+2019-03-08 00:57:33	<--	jason0597 (~jason0597@cpc95214-derb16-2-0-cust805.8-3.cable.virginm.net) has quit (Ping timeout: 245 seconds)
+2019-03-08 00:58:17	s00pcan	whislock: oh, you thought I was serious
+2019-03-08 00:58:18	<--	pauper (~pauper@186.19.201.66) has quit (Read error: Connection reset by peer)
+2019-03-08 00:58:44	-->	pauper (~pauper@186.19.201.66) has joined #archlinux
+2019-03-08 00:59:13	whislock	Sarcasm translates poorly through text sometimes.
+2019-03-08 00:59:22	whislock	And I've encountered enough devs that think people like Java.
+2019-03-08 01:00:31	-->	oibind (~oibind@unaffiliated/oibind) has joined #archlinux
+2019-03-08 01:00:31	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: see !paste | https://i.imgflip.com/nwm8q.jpg"
+2019-03-08 01:00:31	--	Topic set by phrik (phrik@archlinux/bot/phrik) on Sun, 24 Feb 2019 17:26:35
+2019-03-08 01:00:31	--	Channel #archlinux: 1827 nicks (2 ops, 0 voices, 1825 normals)
+2019-03-08 01:00:31	--	Channel created on Sun, 15 Feb 2004 05:08:31
+2019-03-08 01:00:33	s00pcan	why am I imagining a dbus irc client
+2019-03-08 01:01:17	neneal	angryrobotdev: menu script?
+2019-03-08 01:01:39	angryrobotdev	neneal a numbered list with options
+2019-03-08 01:02:08	<--	flippy_ (~jerwin@173-31-165-96.client.mchsi.com) has quit (Ping timeout: 255 seconds)
+2019-03-08 01:02:31	-->	grumpey (~grumpey@2600:1003:b44a:cfba:a3f1:327e:d46f:790b) has joined #archlinux
+2019-03-08 01:03:02	neneal	ahuh
+2019-03-08 01:03:23	psprint	Why? svn: E170013: Unable to connect to a repository at URL 'svn+ssh://svn-community@repos.archlinux.org/srv/repos/svn-community/svn'
+2019-03-08 01:03:53	<--	serg-z (~serg-z@89.33.208.224) has quit (Read error: Connection reset by peer)
+2019-03-08 01:04:12	-->	Adran (~adran@botters/staff/adran) has joined #archlinux
+2019-03-08 01:05:11	jamespharvey20	psprint: don't know, but if you're ok with git: git clone git://git.archlinux.org/svntogit/community.git --single-branch --branch "packages/<pkgName>"
+2019-03-08 01:05:12	-->	serg-z (~serg-z@89.33.208.224) has joined #archlinux
+2019-03-08 01:05:47	psprint	jamespharvey20: I would want to add a new package
+2019-03-08 01:05:48	-->	Knova11 (~Knova@72-48-181-28.dyn.grandenetworks.net) has joined #archlinux
+2019-03-08 01:05:57	-->	Disco-Dave (DiscoDave@gateway/vpn/privateinternetaccess/discodave) has joined #archlinux
+2019-03-08 01:06:43	jamespharvey20	psprint: only trusted users can push to community, look into the aur.
+2019-03-08 01:06:57	<--	BreakerZero (~M00N@unaffiliated/breakerzero) has quit (Quit: L8)
+2019-03-08 01:07:28	psprint	What to sett with the --branch option? I should probably checkout single-branch master, and then create a branch for {packages/pkgName}
+2019-03-08 01:08:33	psprint	jamespharvey20: I was looking into the docs searching on info about adding to AUR, didn;t find anything actually. Do you maybe know a doc about adding a new pkg to the AUR?
+2019-03-08 01:08:33	<--	pauper (~pauper@186.19.201.66) has quit (Read error: Connection reset by peer)
+2019-03-08 01:08:52	jamespharvey20	psprint: if you're not looking to get a current package FROM community, but to add a new one, none of that is the right way to go.  only trusted users can push (add) to community.)
+2019-03-08 01:08:56	-->	pauper (~pauper@186.19.201.66) has joined #archlinux
+2019-03-08 01:09:11	jamespharvey20	psprint: https://wiki.archlinux.org/index.php/Arch_User_Repository
+2019-03-08 01:09:11	@phrik	Title: Arch User Repository - ArchWiki (at wiki.archlinux.org)
+2019-03-08 01:09:35	psprint	jamespharvey20: but "community" != AUR, and I can still push a package to AUR?
