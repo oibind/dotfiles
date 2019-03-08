@@ -3,7 +3,7 @@
         email = oibind@pm.me
         signingkey = AAAF27D04117FA01
 [core]
-        editor = vim
+        editor = nvim
 [commit]
         gpgsign = true
 [help]
