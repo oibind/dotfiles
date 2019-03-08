@@ -1,3 +1,4 @@
+alias weechat 'ssh ubuntu@irc.oibind.me -t "tmux attach -t irc"'
 alias cp 'cp --reflink=auto'
 alias git 'hub'
 alias vim 'nvim'
