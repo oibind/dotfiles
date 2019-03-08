@@ -13,7 +13,6 @@
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     ~/.config/fish: config/fish
     ~/.config/fontconfig: config/fontconfig
-    ~/.weechat: weechat
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
