@@ -1,3 +1,10 @@
+alias ccat 'highlight --out-format=ansi'
+alias g 'hub'
+alias y 'yay'
+alias ys 'yay -Ss'
+alias yi 'yay -S'
+alias yu 'yay -Syu'
+alias SS 'sudo systemctl'
 alias weechat 'ssh ubuntu@irc.oibind.me -t "tmux attach -t irc"'
 alias cp 'cp --reflink=auto'
 alias git 'hub'
@@ -26,7 +33,6 @@ function fhe
   find ~/ -type f -mtime -14 ! -path "*cache*" ! -path "*mozilla*" | \
   cut -d'/' -f4- | fzf | xargs -r -I % $EDITOR %;
 end
-
 
 function sprunge
   curl -F 'sprunge=<-' http://sprunge.us $argv;
