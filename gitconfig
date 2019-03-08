@@ -12,6 +12,8 @@
         a = add
         c = commit -m
 
+        p = push
+
         d = diff
 
         s = status
