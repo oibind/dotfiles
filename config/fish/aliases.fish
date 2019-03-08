@@ -31,7 +31,7 @@ end
 
 function fhe
   find ~/ -type f -mtime -14 ! -path "*cache*" ! -path "*mozilla*" | \
-  cut -d'/' -f4- | fzf | xargs -r -I % $EDITOR %;
+  cut -d'/' -f4- | fzf | xargs -r -I % $EDITOR ~/%;
 end
 
 function sprunge
