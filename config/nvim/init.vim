@@ -151,6 +151,7 @@ au BufNewFile,BufRead *.fish
     \ set autoindent |
     \ set fileformat=unix
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
 

@@ -10,7 +10,7 @@
         autoCorrect = 13
 [alias]
         a = add
-        c = commit -m
+        c = commit
 
         p = push
 
