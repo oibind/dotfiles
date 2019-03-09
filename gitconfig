@@ -12,7 +12,7 @@
         a = add
         c = commit
 
-        p = push
+        p = pull
 
         d = diff
 
