@@ -17,5 +17,7 @@
         d = diff
 
         s = status
+        b = branch
+        m = merge
         co = checkout
         cob = checkout -b
