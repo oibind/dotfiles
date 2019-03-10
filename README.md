@@ -21,7 +21,7 @@ wicd | wi-fi interface
 htop-vim | system monitor with vi keybindings
 xtrlock | screen locker from the 90s
 snapper | automatic btrfs snapshots
-sconsify | all the cool kids use mpd but i'm more realistic
+mopidy/ncmpcpp | i can haz music?
 
 ### The all important obligatory screenshot
 
