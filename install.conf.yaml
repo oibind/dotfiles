@@ -14,6 +14,7 @@
     ~/.config/fish: config/fish
     ~/.config/fontconfig: config/fontconfig
     ~/.local/bin: scripts
+    ~/.tmux.conf: config/tmux.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

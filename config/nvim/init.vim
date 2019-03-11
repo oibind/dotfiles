@@ -67,6 +67,9 @@ nnoremap <silent> $ g$
 
 " specific plugin config
 
+" tmux and vim harmony
+Plug 'christoomey/vim-tmux-navigator'
+
 " auto [] () {} "" '', etc...
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
