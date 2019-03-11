@@ -1,6 +1,6 @@
 abbr r 'ranger'
 abbr v 'nvim'
-abbr m 'nvim'
+abbr n 'nvim'
 abbr g 'git'
 abbr gg 'git clone'
 abbr gb 'git branch'
