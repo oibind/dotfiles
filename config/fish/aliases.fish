@@ -17,6 +17,8 @@ abbr ys 'yay -Ss'
 abbr yi 'yay -S'
 abbr yu 'yay -Syu'
 abbr SS 'sudo systemctl'
+abbr m 'udisksctl mount -b'
+abbr um 'udisksctl unmount -b'
 
 alias ccat 'highlight --out-format=ansi'
 alias weechat 'ssh ubuntu@irc.oibind.me -t "tmux attach -t irc"'
