@@ -67,6 +67,8 @@ nnoremap <silent> $ g$
 
 " specific plugin config
 
+Plug 'tpope/vim-fugitive'
+
 " use ag to searh and open files containing specific words
 Plug 'mileszs/ack.vim'
 if executable('ag')
