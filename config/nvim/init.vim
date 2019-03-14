@@ -67,6 +67,12 @@ nnoremap <silent> $ g$
 
 " specific plugin config
 
+" use ag to searh and open files containing specific words
+Plug 'mileszs/ack.vim'
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 " tmux and vim harmony
 Plug 'christoomey/vim-tmux-navigator'
 
