@@ -39,7 +39,7 @@ highlight ColorColumn ctermbg=magenta
 
 " searching
 set ignorecase " case insensitive searching
-set smartcase " case-sensitive if expresson contains a capital letter
+set smartcase " case-sensitive if expression contains a capital letter
 set hlsearch " highlight search results
 set incsearch " set incremental search, like modern browsers
 
@@ -77,7 +77,8 @@ map <C-n> :NERDTreeToggle<CR>
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
-" use ag to searh and open files containing specific words
+" use ag to search and open files containing specific words
+" requires the_silver_searcher or ack to also be installed one system
 Plug 'mileszs/ack.vim'
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
@@ -134,8 +135,8 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
-Plug 'ncm2/ncm2-jedi' " python
-Plug 'ncm2/ncm2-racer' " rust
+Plug 'ncm2/ncm2-jedi' " python, will require flake8 to be installed on the system.
+Plug 'ncm2/ncm2-racer' " rust, will additionally require rust-racer to be installed.
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
