@@ -78,7 +78,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 " use ag to search and open files containing specific words
-" requires the_silver_searcher or ack to also be installed one system
+" requires the_silver_searcher or ack to also be installed on the system
 Plug 'mileszs/ack.vim'
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
