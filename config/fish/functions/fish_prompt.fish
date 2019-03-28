@@ -1,5 +1,5 @@
 function fish_prompt
-  
+
   set fish_greeting
 
   set -l last_status $status
