@@ -137,6 +137,7 @@ Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-jedi' " python, will require flake8 to be installed on the system.
 Plug 'ncm2/ncm2-racer' " rust, will additionally require rust-racer to be installed.
+Plug 'honza/vim-snippets'
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
@@ -149,6 +150,9 @@ let ncm2#popup_delay = 5
 let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
 let g:ncm2#matcher = 'substrfuzzy'
+
+" skeleton files
+autocmd BufNewFile *.py 0r ~/.config/nvim/skel/skeleton.py
 
 " tab spacing for filetypes
 Plug 'vim-scripts/indentpython.vim'
