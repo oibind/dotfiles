@@ -67,6 +67,9 @@ nnoremap <silent> $ g$
 
 " specific plugin config
 
+" go support for vim
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 " file browser in vim
 Plug 'scrooloose/nerdtree'
 autocmd StdinReadPre * let s:std_in=1
