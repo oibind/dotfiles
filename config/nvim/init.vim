@@ -155,7 +155,6 @@ let g:ncm2#matcher = 'substrfuzzy'
 
 " skeleton files
 autocmd BufNewFile *.py 0r ~/.config/nvim/skel/skeleton.py
-autocmd BufNewFile *.go 0r ~/.config/nvim/skel/skeleton.go
 
 " tab spacing for filetypes
 Plug 'vim-scripts/indentpython.vim'
