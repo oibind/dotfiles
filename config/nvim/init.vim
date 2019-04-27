@@ -11,6 +11,8 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 " actual config stuff
 
+set noswapfile
+
 filetype plugin indent on
 
 set encoding=utf-8
