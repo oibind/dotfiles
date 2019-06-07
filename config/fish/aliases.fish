@@ -1,3 +1,7 @@
+abbr time 'time -f%E'
+abbr c 'cd'
+abbr p 'cp'
+abbr t 'tmux'
 abbr r 'ranger'
 abbr v 'nvim'
 abbr n 'nvim'
