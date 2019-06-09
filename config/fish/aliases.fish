@@ -1,3 +1,4 @@
+abbr cf 'cfcli'
 abbr time 'time -f%E'
 abbr c 'cd'
 abbr p 'cp'
