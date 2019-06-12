@@ -9,6 +9,8 @@
 [help]
         autoCorrect = 13
 [alias]
+        i = init
+
         a = add
         c = commit
 
