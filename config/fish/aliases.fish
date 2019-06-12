@@ -1,6 +1,7 @@
 abbr w 'wget -c'
 abbr cf 'cfcli'
 abbr time 'time -f%E'
+abbr c. 'cd ..'
 abbr c 'cd'
 abbr p 'cp'
 abbr t 'tmux'
