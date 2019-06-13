@@ -16,6 +16,7 @@
     ~/.local/bin: scripts
     ~/.tmux.conf: config/tmux/tmux.conf
     ~/.tmux/plugins/tpm: config/tmux/tpm
+    ~/.config/compton.conf: config/compton.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
