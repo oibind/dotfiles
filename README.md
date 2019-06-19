@@ -17,11 +17,12 @@ ranger | terminal based file manager
 ueberzug | displays images in terminal
 fzf | command-line fuzzy finder
 firefox | web browser
+neomutt | mail
 wicd | wi-fi interface
 htop-vim | system monitor with vi keybindings
 xtrlock | screen locker from the 90s
 snapper | automatic btrfs snapshots
-spotify | i can haz music?
+mpd/ncmpcpp | i can haz music?
 
 ### The all important obligatory screenshot
 
