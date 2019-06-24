@@ -1,3 +1,4 @@
+abbr nc 'ncmpcpp'
 abbr w 'wget -c'
 abbr cf 'cfcli'
 abbr time 'time -f%E'
