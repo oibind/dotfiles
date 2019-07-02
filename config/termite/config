@@ -1,7 +1,7 @@
 [options]
 clickable_url = true
 dynamic_title = true
-font = Monospace 11
+font = mononoki 11
 scrollback_lines = 10000
 browser = firefox
 cursor_blink = on
