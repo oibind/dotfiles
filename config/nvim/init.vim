@@ -75,6 +75,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+Plug 'dhruvasagar/vim-table-mode'
+let g:table_mode_corner="|"
+
 " go support for vim
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
