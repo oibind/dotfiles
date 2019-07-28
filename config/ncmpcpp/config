@@ -70,7 +70,6 @@ statusbar_visibility = "yes"
 titles_visibility = "yes"
 
 progressbar_look =  "=>-"
-progressbar_boldness = "yes"
 progressbar_elapsed_color = "white"
 
 now_playing_prefix = "> "
