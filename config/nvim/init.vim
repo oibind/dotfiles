@@ -75,6 +75,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" range, pattern and substitute preview for neovim
+Plug 'markonm/traces.vim'
+
 " highlight and remove whitespace
 Plug 'bronson/vim-trailing-whitespace'
 nmap <leader><space> :FixWhitespace<cr>
