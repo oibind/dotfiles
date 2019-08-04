@@ -54,10 +54,6 @@ nmap <leader>, :w<cr>
 " shortcut to quit without saving
 nmap <leader>. :q!<cr>
 
-" remove extra whitespace
-nmap <leader><space> :%s/\s\+$<cr>
-nmap <leader><space><space> :%s/\n\{2,}/\r\r/g<cr>
-
 " clear highlighted search
 noremap <space> :set hlsearch! hlsearch?<cr>
 
@@ -78,6 +74,10 @@ xnoremap <leader>k :m-2<cr>gv=gv
 xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
+
+" highlight and remove whitespace
+Plug 'bronson/vim-trailing-whitespace'
+nmap <leader><space> :FixWhitespace<cr>
 
 "auto close HTML tags
 Plug 'alvan/vim-closetag'
