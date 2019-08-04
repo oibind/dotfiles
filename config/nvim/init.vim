@@ -167,6 +167,7 @@ Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-jedi' " python, will require flake8 to be installed on the system.
 Plug 'ncm2/ncm2-racer' " rust, will additionally require rust-racer to be installed.
+Plug 'ncm2/ncm2-go' "go, will require gocode to be installed.
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
