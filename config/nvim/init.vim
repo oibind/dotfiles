@@ -79,6 +79,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+"auto close HTML tags
+Plug 'alvan/vim-closetag'
+
 " class outline viewer for effective code navigation
 " requires ctags to be installed
 Plug 'majutsushi/tagbar'
