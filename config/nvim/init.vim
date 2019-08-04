@@ -67,7 +67,7 @@ nnoremap <silent> k gk
 nnoremap <silent> ^ g^
 nnoremap <silent> $ g$
 
-" use hl to move left in right in the cmd buffer
+" use hl to move left and right in the cmd buffer
 cnoremap <C-h> <left>
 cnoremap <C-l> <right>
 
