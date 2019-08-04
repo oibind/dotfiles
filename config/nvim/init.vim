@@ -79,6 +79,11 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" class outline viewer for effective code navigation
+" requires ctags to be installed
+Plug 'majutsushi/tagbar'
+nmap <F8> :TagbarToggle<CR>
+
 " easy markdown tables
 Plug 'dhruvasagar/vim-table-mode'
 let g:table_mode_corner="|"
