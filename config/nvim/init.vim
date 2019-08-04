@@ -67,6 +67,10 @@ nnoremap <silent> k gk
 nnoremap <silent> ^ g^
 nnoremap <silent> $ g$
 
+" use hl to move left in right in the cmd buffer
+cnoremap <C-h> <left>
+cnoremap <C-l> <right>
+
 " move lines around
 nnoremap <leader>k :m-2<cr>==
 nnoremap <leader>j :m+<cr>==
