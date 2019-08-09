@@ -23,6 +23,7 @@ htop-vim | system monitor with vi keybindings
 xtrlock | screen locker from the 90s
 snapper | automatic btrfs snapshots
 mpd/ncmpcpp | i can haz music?
+xlogin | autologin with systemd
 
 ### The all important obligatory screenshot
 
