@@ -109,8 +109,8 @@ map <C-n> :NERDTreeToggle<CR>
 " git stuff
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-Plug 'tveskag/nvim-blame-line'
-nmap <silent> <leader>b :ToggleBlameLine<CR>
+" requires neovim 0.4 or later for floating windows support
+Plug 'rhysd/git-messenger.vim'
 
 " use ag to search and open files containing specific words
 " requires the_silver_searcher or ack to also be installed on the system
