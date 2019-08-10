@@ -25,6 +25,12 @@ function fish_prompt
   if not set -q __fish_git_prompt_color_cleanstate
     set -g __fish_git_prompt_color_cleanstate brgreen
   end
+  if not set -q __fish_git_prompt_char_invalidstate
+    set -g __fish_git_prompt_char_invalidstate "✗"
+  end
+  if not set -q __fish_git_prompt_char_cleanstate
+    set -g __fish_git_prompt_char_cleanstate "✓"
+  end
 
   printf '%s%s %s%s%s%s ' (set_color $fish_color_host) "$USER"@(prompt_hostname) (set_color $fish_color_cwd) (prompt_pwd) (set_color normal) (__fish_git_prompt)
 
