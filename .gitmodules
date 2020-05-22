@@ -7,3 +7,7 @@
 [submodule "config/tmux/tpm"]
 	path = config/tmux/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "config/awesome"]
+	path = config/awesome
+	url = https://github.com/oibind/awesome-copycats.git
+	branch = personal
