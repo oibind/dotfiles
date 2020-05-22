@@ -8,7 +8,6 @@
     ~/.gitconfig: gitconfig
     ~/.config/nvim: config/nvim
     ~/.config/awesome: config/awesome
-    ~/.config/ranger: config/ranger
     ~/.config/termite: config/termite
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     ~/.config/fish: config/fish
