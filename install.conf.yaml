@@ -16,9 +16,6 @@
     ~/.tmux.conf: config/tmux/tmux.conf
     ~/.tmux/plugins/tpm: config/tmux/tpm
     ~/.config/compton.conf: config/compton.conf
-    ~/.config/mpd/mpd.conf: config/mpd/mpd.conf
-    ~/.ncmpcpp/bindings: config/ncmpcpp/bindings
-    ~/.ncmpcpp/config: config/ncmpcpp/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
