@@ -13,16 +13,11 @@ fish | friendly interactive shell
 termite | terminal emulator
 yay | AUR support
 sxiv | lightweight image viewer
-ranger | terminal based file manager
+lf | terminal based file manager
 ueberzug | displays images in terminal
 fzf | command-line fuzzy finder
 firefox | web browser
-neomutt | mail
-wicd | wi-fi interface
-htop-vim | system monitor with vi keybindings
 xtrlock | screen locker from the 90s
-snapper | automatic btrfs snapshots
-mpd/ncmpcpp | i can haz music?
 xlogin | autologin with systemd
 
 ### The all important obligatory screenshot
