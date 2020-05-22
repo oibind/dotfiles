@@ -25,14 +25,14 @@ abbr gc 'git commit'
 abbr gp 'git push'
 abbr gr 'git rebase'
 
-# pacman specific
+# arch specific
 abbr y 'yay'
 abbr ys 'yay -Ss'
 abbr yi 'yay -S'
 abbr yu 'yay -Syu'
 abbr yr 'sudo pacman -Rnsc'
 abbr yro 'sudo pacman -Rns (pacman -Qtdq)'
-abbr yc 'sudo paccache -rk 1 && sudo paccache -ruk0'
+abbr yc 'yay -Sc'
 
 abbr SS 'sudo systemctl'
 
