@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig: config/gitconfig
     ~/.config/nvim: config/nvim
     ~/.config/awesome: config/awesome
     ~/.config/termite: config/termite
