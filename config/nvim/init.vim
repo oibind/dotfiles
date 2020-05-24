@@ -75,7 +75,11 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
-" range, pattern and substitute preview for neovim
+" motion for vim
+Plug 'justinmk/vim-sneak'
+let g:sneak#label = 1
+
+"range, pattern and substitute preview for neovim
 Plug 'markonm/traces.vim'
 
 " highlight and remove whitespace
