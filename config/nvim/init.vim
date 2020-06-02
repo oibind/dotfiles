@@ -79,14 +79,14 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 Plug 'justinmk/vim-sneak'
 let g:sneak#label = 1
 
-"range, pattern and substitute preview for neovim
+" range, pattern and substitute preview for neovim
 Plug 'markonm/traces.vim'
 
 " highlight and remove whitespace
 Plug 'bronson/vim-trailing-whitespace'
 nmap <leader><space> :FixWhitespace<cr>
 
-"auto close HTML tags
+" auto close HTML tags
 Plug 'alvan/vim-closetag'
 
 " class outline viewer for effective code navigation
