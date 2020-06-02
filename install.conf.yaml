@@ -16,6 +16,8 @@
     ~/.tmux.conf: config/tmux/tmux.conf
     ~/.tmux/plugins/tpm: config/tmux/tpm
     ~/.config/picom.conf: config/picom.conf
+    ~/.config/lf: config/lf
+    ~/.fdignore: config/fdignore
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
