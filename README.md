@@ -14,7 +14,6 @@ termite | terminal emulator
 yay | AUR support
 sxiv | lightweight image viewer
 lf | terminal based file manager
-ueberzug | displays images in terminal
 fzf | command-line fuzzy finder
 firefox | web browser
 xtrlock | screen locker from the 90s
