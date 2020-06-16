@@ -19,5 +19,8 @@
     ~/.config/lf: config/lf
     ~/.fdignore: config/fdignore
 
+- create:
+    - ~/downloads
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
