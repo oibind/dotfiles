@@ -11,6 +11,10 @@ abbr t 'tmux'
 abbr v 'nvim'
 abbr n 'nvim'
 
+# quick cd to dir
+abbr d 'cd ~/dev/dotfiles'
+abbr s 'cd ~/dev/st'
+
 # git specific
 abbr g 'git'
 abbr gg 'git clone'
