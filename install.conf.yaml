@@ -12,6 +12,7 @@
     ~/.config/fish: config/fish
     ~/.config/fontconfig: config/fontconfig
     ~/.local/bin: local/bin
+    ~/.local/share: local/share
     ~/.tmux.conf: config/tmux/tmux.conf
     ~/.tmux/plugins/tpm: config/tmux/tpm
     ~/.config/picom.conf: config/picom.conf
