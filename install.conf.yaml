@@ -11,7 +11,7 @@
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     ~/.config/fish: config/fish
     ~/.config/fontconfig: config/fontconfig
-    ~/.local/bin: scripts
+    ~/.local/bin: local/bin
     ~/.tmux.conf: config/tmux/tmux.conf
     ~/.tmux/plugins/tpm: config/tmux/tpm
     ~/.config/picom.conf: config/picom.conf
