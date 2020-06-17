@@ -16,7 +16,7 @@ sxiv | lightweight image viewer
 lf | terminal based file manager
 fzf | command-line fuzzy finder
 firefox | web browser
-xtrlock | screen locker from the 90s
+slock | screen locker from the 90s
 xlogin | autologin with systemd
 
 ### The all important obligatory screenshot
