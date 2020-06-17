@@ -24,7 +24,7 @@ set number
 set relativenumber
 set ttyfast " faster redrawing
 
-set noexpandtab " insert tabs rather than spaces for <Tab>
+set expandtab
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
 
 " toggle invisible characters
