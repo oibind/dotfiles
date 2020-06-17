@@ -75,6 +75,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" list of numbers
+Plug 'triglav/vim-visual-increment'
+
 " motion for vim
 Plug 'justinmk/vim-sneak'
 let g:sneak#label = 1
