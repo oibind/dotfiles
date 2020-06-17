@@ -1,9 +1,10 @@
-# basic configs
+# Basic vars
 set shell bash
 set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 set color256
+set icons
 set period 1
 
 # ignore files or dirs
