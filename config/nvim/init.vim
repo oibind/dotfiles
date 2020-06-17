@@ -135,6 +135,7 @@ Plug 'tpope/vim-surround'
 
 " git diff in gutter
 Plug 'airblade/vim-gitgutter'
+highlight! link SignColumn LineNr
 
 " markdown-preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
