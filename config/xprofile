@@ -2,6 +2,7 @@
 
 #xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources &
 xcalib -screen 0 ~/.local/resources/x220/ips.icc &
+exec dockd --daemon  &
 picom &
 xset r rate 300 50 &
 unclutter &

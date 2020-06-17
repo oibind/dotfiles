@@ -18,6 +18,7 @@ fzf | command-line fuzzy finder
 firefox | web browser
 slock | screen locker from the 90s
 xlogin | autologin with systemd
+dockd | thinkpad dock management
 
 ### The all important obligatory screenshot
 
