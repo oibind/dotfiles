@@ -17,7 +17,6 @@
     ~/.config/tmux: config/tmux
     ~/.config/picom.conf: config/picom.conf
     ~/.config/lf: config/lf
-    ~/.fdignore: config/fdignore
     ~/.xinitrc: config/xinitrc
     ~/.xprofile: config/xprofile
     ~/.config/Xresources: config/Xresources
