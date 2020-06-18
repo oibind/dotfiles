@@ -3,8 +3,6 @@ and not set -q TMUX
     exec tmux
 end
 
-. ~/.config/fish/aliases.fish
-
 set -x GOPATH $HOME/go
 set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
 

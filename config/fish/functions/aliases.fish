@@ -1,4 +1,6 @@
-# abbreviatons
+## abbreviatons
+
+# generic
 abbr du 'du -h'
 abbr df 'df -h'
 abbr w 'wget -c'
@@ -10,9 +12,11 @@ abbr p 'cp'
 abbr t 'tmux'
 abbr v 'nvim'
 abbr n 'nvim'
+abbr SS 'sudo systemctl'
 
-# quick cd to dir
+# dirs
 abbr d 'cd ~/dev/dotfiles'
+abbr D 'cd ~/downloads'
 abbr s 'cd ~/dev/st'
 
 # git specific
@@ -29,7 +33,7 @@ abbr gc 'git commit'
 abbr gp 'git push'
 abbr gr 'git rebase'
 
-# arch specific
+# yay/pacman specific
 abbr y 'yay'
 abbr ys 'yay -Ss'
 abbr yi 'yay -S'
@@ -37,32 +41,28 @@ abbr yu 'yay -Syu'
 abbr yr 'sudo pacman -Rnsc'
 abbr yro 'sudo pacman -Rns (pacman -Qtdq)'
 abbr yc 'yay -Sc'
+abbr yp 'yay -Ps'
 
-abbr SS 'sudo systemctl'
-
-# USB mounting
+# usb mounting
 abbr m 'udisksctl mount -b'
 abbr um 'udisksctl unmount -b'
 
+## aliases
 alias ls 'ls --color --ignore=lost+found'
 alias git 'hub'
 alias vim 'nvim'
-alias xlcip 'xclip -selection c'
+alias xlcip 'xclip -selection clipboard'
 
-# process substitution
-function delete_psub_tmp
-  set files /tmp/.psub.*
-    if count $files > /dev/null
-      rm -f /tmp/.psub.*
-  end
-end
+## functions
 
+# arch specific
 function fr
   delete_psub_tmp
   xargs -I _ -ra (pacman -Qe | awk '{print $1}' | fzf | psub) yay -Rnsc _
   delete_psub_tmp
 end
 
+# find and edit files
 function fe
   fzf | xargs -r -I % $EDITOR %;
 end
@@ -72,6 +72,7 @@ function fhe
   cut -d'/' -f4- | fzf | xargs -r -I % $EDITOR ~/%;
 end
 
+# terminal pastebin
 function sprunge
   curl -F 'sprunge=<-' http://sprunge.us $argv;
 end
