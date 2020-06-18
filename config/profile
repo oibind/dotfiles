@@ -34,6 +34,15 @@ export QT_QPA_PLATFORMTHEME="gtk2" # have qt use gtk2 theme.
 export MOZ_USE_XINPUT2="1" # mozilla smooth scrolling/touchpads.
 export AWT_TOOLKIT="MToolkit wmname LG3D" # java awesome requires wmname
 export _JAVA_AWT_WM_NONREPARENTING=1 # fix for java applications in dwm
+export LESS=-R
+export LESS_TERMCAP_mb="$(printf '%b' '[01;31m')"
+export LESS_TERMCAP_md="$(printf '%b' '[01;38;5;74m')"
+export LESS_TERMCAP_me="$(printf '%b' '[0m')"
+export LESS_TERMCAP_so="$(printf '%b' '[38;5;246m')"
+export LESS_TERMCAP_se="$(printf '%b' '[0m')"
+export LESS_TERMCAP_us="$(printf '%b' '[04;38;5;146m')"
+export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
+export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
 
 # lf icons:
 export LF_ICONS="di=📁:\
