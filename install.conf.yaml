@@ -20,7 +20,7 @@
     ~/.fdignore: config/fdignore
     ~/.xinitrc: config/xinitrc
     ~/.xprofile: config/xprofile
-    ~/.Xresources: config/Xresources
+    ~/.config/Xresources: config/Xresources
     ~/.profile: config/profile
     ~/.config/wget: config/wget
 
