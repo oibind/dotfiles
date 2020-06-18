@@ -23,6 +23,7 @@
     ~/.xprofile: config/xprofile
     ~/.Xresources: config/Xresources
     ~/.profile: config/profile
+    ~/.config/wget: config/wget
 
 - create:
     - ~/downloads
