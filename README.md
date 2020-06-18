@@ -11,6 +11,7 @@ awesome | tiling window manger based on dwm
 nvim | text editor (new hipster version of vim)
 fish | friendly interactive shell
 st | terminal emulator
+dmenu | dynamic menu and application launcher
 yay | AUR support
 sxiv | lightweight image viewer
 lf | terminal based file manager
