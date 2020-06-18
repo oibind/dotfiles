@@ -21,6 +21,7 @@
     ~/.xinitrc: config/xinitrc
     ~/.xprofile: config/xprofile
     ~/.Xresources: config/Xresources
+    ~/.profile: config/profile
 
 - create:
     - ~/downloads
