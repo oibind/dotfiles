@@ -32,6 +32,8 @@ abbr ga 'git add .'
 abbr gc 'git commit'
 abbr gp 'git push'
 abbr gr 'git rebase'
+abbr gcm 'git checkout master'
+abbr gbd 'git branch -D'
 
 # yay/pacman specific
 abbr y 'yay'
