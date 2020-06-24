@@ -2,4 +2,4 @@
 
 . ~/.xprofile
 
-exec awesome
+ssh-agent awesome
