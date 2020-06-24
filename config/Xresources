@@ -1,5 +1,5 @@
 !! Set default font:
-static char *font = "mononoki:pixelsize=24:antialias=true:autohint=true";
+*.font: monospace:size=10
 
 !! Transparency (0-1):
 *.alpha: 0
