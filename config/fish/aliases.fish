@@ -14,11 +14,6 @@ abbr v 'nvim'
 abbr n 'nvim'
 abbr SS 'sudo systemctl'
 
-# dirs
-abbr d 'cd ~/dev/dotfiles'
-abbr D 'cd ~/downloads'
-abbr s 'cd ~/dev/st'
-
 # git specific
 abbr g 'git'
 abbr gg 'git clone'
