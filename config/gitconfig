@@ -8,18 +8,3 @@
         gpgsign = true
 [help]
         autoCorrect = 13
-[alias]
-        i = init
-
-        a = add
-        c = commit
-
-        p = pull
-
-        d = diff
-
-        s = status
-        b = browse
-        m = merge
-        co = checkout
-        cob = checkout -b
