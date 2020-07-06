@@ -8,3 +8,5 @@
         gpgsign = true
 [help]
         autoCorrect = 13
+[alias]
+        b = browse
