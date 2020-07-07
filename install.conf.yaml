@@ -7,7 +7,6 @@
 - link:
     ~/.gitconfig: config/gitconfig
     ~/.config/nvim: config/nvim
-    ~/.config/awesome: config/awesome
     ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
     ~/.config/gtk-2.0/gtkrc-2.0: config/gtk-2.0/gtkrc-2.0
     ~/.config/fish: config/fish
