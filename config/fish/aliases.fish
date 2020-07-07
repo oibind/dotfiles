@@ -53,6 +53,7 @@ alias ls 'ls --color --ignore=lost+found'
 alias git 'hub'
 alias vim 'nvim'
 alias xlcip 'xclip -selection clipboard'
+alias x 'z'
 
 ## functions
 
