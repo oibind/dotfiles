@@ -82,7 +82,7 @@ Plug 'triglav/vim-visual-increment'
 Plug 'justinmk/vim-sneak'
 let g:sneak#label = 1
 
-" range, pattern and substitute preview for neovim
+" range, pattern, and substitute preview for neovim
 Plug 'markonm/traces.vim'
 
 " highlight and remove whitespace
