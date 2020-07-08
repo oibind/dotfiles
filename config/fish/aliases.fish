@@ -14,6 +14,7 @@ abbr v 'nvim'
 abbr n 'nvim'
 abbr SS 'sudo systemctl'
 abbr h 'htop'
+abbr i 'get_iplayer'
 
 # git specific
 abbr g 'git'
