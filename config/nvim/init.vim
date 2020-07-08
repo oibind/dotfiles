@@ -75,6 +75,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" hexcode colours
+Plug 'ap/vim-css-color'
+
 " list of numbers
 Plug 'triglav/vim-visual-increment'
 
