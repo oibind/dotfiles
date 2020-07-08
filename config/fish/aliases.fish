@@ -13,6 +13,7 @@ abbr t 'tmux'
 abbr v 'nvim'
 abbr n 'nvim'
 abbr SS 'sudo systemctl'
+abbr h 'htop'
 
 # git specific
 abbr g 'git'
@@ -54,6 +55,7 @@ alias git 'hub'
 alias vim 'nvim'
 alias xlcip 'xclip -selection clipboard'
 alias x 'z'
+alias top 'htop'
 
 ## functions
 
