@@ -15,7 +15,7 @@ set noswapfile
 
 filetype plugin indent on
 
-set encoding=utf-8
+set encoding=UTF-8
 
 set autoread " detect when a file is changed
 
