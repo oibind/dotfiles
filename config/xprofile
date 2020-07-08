@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# fix gnome apps slow start due to failing services
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+
 exec dockd --daemon  & # ThinkPad automatic actions on dock/undock
 xwallpaper --zoom ~/.local/resources/bg.png & # Set the wallpaper
 xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources & # Enable the usage of ~/Xresources for colors/settings
