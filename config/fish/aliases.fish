@@ -34,6 +34,8 @@ abbr gcm 'git checkout main'
 abbr gbd 'git branch -D'
 abbr gi 'git init'
 abbr gy 'git pull'
+abbr gu 'git reset --hard HEAD~'
+abbr grc 'git reset --soft HEAD~2 && git commit'
 
 # yay/pacman specific
 abbr y 'yay'
