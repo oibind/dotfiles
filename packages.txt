@@ -38,7 +38,7 @@ groff
 grub
 harfbuzz
 highlight
-htop
+htop-vim-git
 hub
 ifplugd
 keybase
