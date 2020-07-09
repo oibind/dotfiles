@@ -17,3 +17,6 @@
 [submodule "config/tmux/plugins/vim-tmux-navigator"]
 	path = config/tmux/plugins/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "config/awesome"]
+	path = config/awesome
+	url = git://github.com/oibind/awesome-copycats.git

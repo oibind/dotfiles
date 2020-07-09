@@ -7,7 +7,7 @@ git clone oibind/dotfiles && cd dotfiles && ./install
 
 | package name | what it do |
 | - | - |
-[dwm](https://github.com/oibind/dwm) | tiling window manger
+[awesome](https://github.com/oibind/awesome-copycats) | tiling window manger based on dwm
 [nvim](https://neovim.io) | text editor (new hipster version of vim)
 [fish](https://fishshell.com/) | friendly interactive shell
 [st](https://github.com/oibind/st) | terminal emulator
