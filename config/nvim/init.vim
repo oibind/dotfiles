@@ -11,6 +11,9 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 " actual config stuff
 
+" 256 colours
+set t_Co=256
+
 set noswapfile
 
 filetype plugin indent on
