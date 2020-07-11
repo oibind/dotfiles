@@ -21,7 +21,6 @@
     ~/.config/Xresources: config/Xresources
     ~/.profile: config/profile
     ~/.config/wget: config/wget
-    ~/.config/awesome: config/awesome
 
 - create:
     - ~/downloads
