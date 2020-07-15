@@ -60,6 +60,7 @@ alias vim 'nvim'
 alias xlcip 'xclip -selection clipboard'
 alias x 'z'
 alias top 'htop'
+alias grep 'rg'
 
 ## functions
 
