@@ -16,6 +16,10 @@ abbr SS 'sudo systemctl'
 abbr h 'htop'
 abbr i 'get_iplayer'
 
+# tar specific
+abbr tgz 'tar -xvzf'
+abbr tbz 'tar -xvjf'
+
 # git specific
 abbr g 'git'
 abbr gg 'git clone'
