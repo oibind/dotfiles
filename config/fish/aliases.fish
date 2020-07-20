@@ -15,6 +15,8 @@ abbr n 'nvim'
 abbr SS 'sudo systemctl'
 abbr h 'htop'
 abbr i 'get_iplayer'
+abbr iu 'get_iplayer --url'
+abbr ig 'get_iplayer --get'
 
 # tar specific
 abbr tgz 'tar -xvzf'
