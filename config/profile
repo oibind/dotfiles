@@ -29,6 +29,7 @@ export LESSHISTFILE="-"
 export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
 
 # program settings
+export TERM="xterm-256color"
 export FZF_DEFAULT_COMMAND='fd --type --hidden --follow -exclude .git'
 export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border"
 export QT_QPA_PLATFORMTHEME="gtk2" # have qt use gtk2 theme.
