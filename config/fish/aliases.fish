@@ -60,7 +60,7 @@ abbr m 'udisksctl mount -b'
 abbr um 'udisksctl unmount -b'
 
 ## aliases
-alias ls 'ls --color --ignore=lost+found'
+alias ls 'exa --color=always --group-directories-first'
 alias git 'hub'
 alias vim 'nvim'
 alias xlcip 'xclip -selection clipboard'
