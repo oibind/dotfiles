@@ -21,6 +21,7 @@ dockd
 dosfstools
 dunst
 equilux-theme
+exa
 exfat-utils
 fakeroot
 fd
@@ -41,7 +42,7 @@ htop-vim-git
 hub
 ifplugd
 keybase
-lf-git
+lf-bin
 libxft-bgra
 linux-firmware
 linux-hardened
@@ -54,6 +55,7 @@ mlocate
 mpv
 neofetch
 neovim
+nerd-fonts-mononoki
 network-manager-applet
 noto-fonts-emoji
 numix-square-icon-theme
@@ -73,7 +75,6 @@ slack-desktop
 spotify
 sudo
 sxiv
-sxiv-rifle
 texinfo
 the_silver_searcher
 tmux
