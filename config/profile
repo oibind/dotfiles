@@ -7,7 +7,6 @@ export BROWSER="firefox"
 
 # paths
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
-export PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # locales
 export LANG=en_US.UTF-8
