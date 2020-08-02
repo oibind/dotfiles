@@ -1,4 +1,4 @@
-# Basic vars
+# basic vars
 set shell bash
 set shellopts '-eu'
 set ifs "\n"
