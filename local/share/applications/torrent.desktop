@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Deluge
+Exec=/usr/bin/deluge-gtk %U

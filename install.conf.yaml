@@ -21,6 +21,8 @@
     ~/.config/Xresources: config/Xresources
     ~/.profile: config/profile
     ~/.config/wget: config/wget
+    ~/.config/mimeapps.list: config/mimeapps.list
+    ~/.local/share/applications: local/share/applications
 
 - create:
     - ~/downloads
