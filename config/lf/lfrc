@@ -7,3 +7,25 @@ set color256
 set icons
 set period 1
 set hiddenfiles "lost+found:.*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
+
+# commands
+cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
+
+# keybindings
+# general
+map gh
+map g top
+map d delete
+map C copy
+map p paste
+map M push :mkdir<space>
+map <c-r> reload
+map <enter> shell
+map o &mimeopen $f
+
+# renaming specific
+map A rename # at the very end
+map r push A<c-u> # new rename
+map I push A<c-a> # at the very beginning
+map i push A<a-b><a-b><a-f> # before extention
+map a push A<a-b> # after extention
