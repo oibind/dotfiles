@@ -30,6 +30,9 @@ set ttyfast " faster redrawing
 set expandtab
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
 
+" disable automatic commenting on a newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 " toggle invisible characters
 set list
 set listchars=tab:›—,trail:␣,extends:▶,precedes:◀
