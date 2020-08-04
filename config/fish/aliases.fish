@@ -73,6 +73,7 @@ alias xlcip 'xclip -selection clipboard'
 alias x 'z'
 alias top 'htop'
 alias grep 'rg'
+alias ip 'dig +short myip.opendns.com @resolver1.opendns.com'
 
 ## functions
 
