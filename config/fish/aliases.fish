@@ -2,7 +2,7 @@
 
 # generic
 abbr du 'du -h'
-abbr df 'df -h'
+abbr df 'df -P -kHl'
 abbr w 'wget -c'
 abbr time 'time -f%E'
 abbr c 'cd'
