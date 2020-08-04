@@ -21,10 +21,7 @@ abbr i 'get_iplayer'
 abbr iu 'get_iplayer --url'
 abbr ig 'get_iplayer --get'
 abbr yt 'youtube-dl --add-metadata -i'
-
-# tar specific
-abbr tgz 'tar -xvzf'
-abbr tbz 'tar -xvjf'
+abbr e 'ex'
 
 # git specific
 abbr g 'git'
