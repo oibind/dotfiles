@@ -24,6 +24,7 @@
     ~/.config/mimeapps.list: config/mimeapps.list
     ~/.local/share/applications: local/share/applications
     ~/.config/zathura: config/zathura
+    ~/.ssh/config: config/ssh.config
 
 - create:
     - ~/downloads
