@@ -22,6 +22,7 @@ abbr iu 'get_iplayer --url'
 abbr ig 'get_iplayer --get'
 abbr yt 'youtube-dl --add-metadata -i'
 abbr e 'ex'
+abbr ne 'newsboat'
 
 # git specific
 abbr g 'git'
