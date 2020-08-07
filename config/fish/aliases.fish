@@ -53,7 +53,7 @@ abbr yi 'yay -S'
 abbr yu 'yay -Syu'
 abbr yr 'sudo pacman -Rnsc'
 abbr yro 'sudo pacman -Rns (pacman -Qtdq)'
-abbr yc 'yay -Sc'
+abbr yc 'yay -Sc --noconfirm'
 abbr yp 'yay -Ps'
 
 # usb mounting
