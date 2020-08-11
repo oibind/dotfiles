@@ -37,7 +37,7 @@ video() { ffmpeg \
 	-f x11grab \
 	-s "$(xdpyinfo | grep dimensions | awk '{print $2;}')" \
 	-i :0.0+0,0 \
-	-c:v libx264rgp -qp 0 -r 30 \
+	-c:v libx264rgb -qp 0 -r 30 \
 	"$HOME/video-$(date '+%y%m%d-%H%M-%S').mkv" &
 	echo $! > /tmp/recordingpid
 	}
