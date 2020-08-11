@@ -29,6 +29,7 @@ cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 
 # keybindings
 # general
+map <c-f> $lf -remote "send $id select '$(fzf)'"
 map gh
 map g top
 map d delete
