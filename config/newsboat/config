@@ -20,3 +20,4 @@ bind-key U show-urls
 
 browser linkhandler
 macro , open-in-browser
+macro c set browser "echo %u | xclip -selection clipboard" ; open-in-browser ; set browser linkhandler
