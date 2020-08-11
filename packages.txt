@@ -44,7 +44,7 @@ hub
 ifplugd
 keybase
 lf-bin
-libxft-bgra
+libxft-bgra-git
 linux-firmware
 linux-hardened
 m4
@@ -101,7 +101,6 @@ xlogin
 xorg-server
 xorg-server-xephyr
 xorg-xbacklight
-xorg-xdpyinfo
 xorg-xinit
 xorg-xsetroot
 yay
