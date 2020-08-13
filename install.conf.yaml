@@ -26,6 +26,7 @@
     ~/.config/zathura: config/zathura
     ~/.config/neofetch: config/neofetch
     ~/.config/newsboat/config: config/newsboat/config
+    ~/.config/mpv: config/mpv
 
 - create:
     - ~/downloads
