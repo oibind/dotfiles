@@ -44,6 +44,8 @@ set cursorline
 highlight Cursorline cterm=bold,underline
 call matchadd('ColorColumn', '\%81v', 100)
 highlight ColorColumn ctermbg=magenta
+set guicursor=n:blinkwait700-blinkon400-blinkoff250
+set guicursor=i:ver1-blinkwait700-blinkon400-blinkoff250
 
 " searching
 set ignorecase " case insensitive searching
