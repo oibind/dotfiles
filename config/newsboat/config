@@ -18,11 +18,11 @@ bind-key n next-unread
 bind-key N prev-unread
 bind-key U show-urls
 
-color listnormal color4 default
-color listfocus white blue dim
-color listnormal_unread cyan black
-color listfocus_unread white blue bold
-color info yellow blue bold
+color listnormal white default dim
+color listfocus white white dim
+color listnormal_unread white black
+color listfocus_unread white white reverse
+color info white white reverse
 color article white black
 
 browser linkhandler
