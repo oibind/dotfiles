@@ -84,6 +84,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" sprunge.us
+Plug 'javier-lopez/sprunge.vim'
+
 " hexcode colours
 Plug 'ap/vim-css-color'
 
