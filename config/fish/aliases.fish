@@ -56,6 +56,7 @@ abbr yr 'sudo pacman -Rnsc'
 abbr yro 'sudo pacman -Rns (pacman -Qtdq)'
 abbr yc 'yay -Sc --noconfirm'
 abbr yp 'yay -Ps'
+abbr ym 'sudo reflector --country Ireland --country "United Kingdom" --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
 # usb mounting
 abbr m 'udisksctl mount -b'
