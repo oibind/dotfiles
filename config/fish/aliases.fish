@@ -2,7 +2,7 @@
 
 # generic
 abbr du 'du -h'
-abbr df 'df -P -kHl'
+abbr df 'df -P -kHl --exclude-type=tmpfs --exclude-type=devtmpfs'
 abbr w 'wget -c'
 abbr time 'time -f%E'
 abbr c 'cd'
