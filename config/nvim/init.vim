@@ -215,16 +215,7 @@ let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
 " tab spacing for filetypes
-Plug 'vim-scripts/indentpython.vim'
-
-au BufNewFile,BufRead *.py
-    \ set tabstop=4 |
-    \ set softtabstop=4 |
-    \ set shiftwidth=4 |
-    \ set textwidth=79 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix
+Plug 'Vimjas/vim-python-pep8-indent'
 
 au BufNewFile,BufRead *.fish
     \ set tabstop=2 |
