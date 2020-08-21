@@ -221,7 +221,6 @@ Plug 'Vimjas/vim-python-pep8-indent', { 'for': 'python' }
 Plug 'hdima/python-syntax', { 'for': 'python' }
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'kballard/vim-fish', { 'for': 'fish' }
 Plug 'tpope/vim-git', { 'for': 'git' }
 
