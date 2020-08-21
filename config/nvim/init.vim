@@ -152,7 +152,7 @@ Plug 'airblade/vim-gitgutter'
 highlight! link SignColumn LineNr
 
 " markdown-preview
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 let g:mkdp_auto_start = 0
 
 " auto un/comment
