@@ -10,3 +10,5 @@
         autoCorrect = 13
 [alias]
         b = browse
+[init]
+        defaultBranch = main
