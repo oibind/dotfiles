@@ -29,7 +29,8 @@ abbr g 'git'
 abbr gg 'git clone'
 abbr gb 'git branch'
 abbr gco 'git checkout'
-abbr gcb 'git checkout -b'
+abbr gcb "git checkout -b bugfix/(uuidgen | cut -d- -f1)"
+abbr gcf "git checkout -b feature/(uuidgen | cut -d- -f1)"
 abbr gm 'git merge'
 abbr gs 'git status'
 abbr gl 'git log --graph --decorate --oneline'
