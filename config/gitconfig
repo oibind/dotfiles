@@ -9,6 +9,7 @@
 [help]
         autoCorrect = 13
 [alias]
+        cleanup = "!git branch --merged | grep  -v 'main' | xargs -n 1 git branch -d"
         b = browse
 [init]
         defaultBranch = main
