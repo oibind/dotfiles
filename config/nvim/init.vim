@@ -107,7 +107,7 @@ Plug 'bronson/vim-trailing-whitespace'
 nmap <leader><space> :FixWhitespace<cr>
 
 " auto close HTML tags
-Plug 'alvan/vim-closetag'
+Plug 'alvan/vim-closetag', { 'for': 'html' }
 
 " class outline viewer for effective code navigation
 " requires ctags to be installed
@@ -202,7 +202,7 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
-Plug 'ncm2/ncm2-jedi' " python, will require flake8 to be installed on the system.
+Plug 'ncm2/ncm2-jedi', { 'for': 'python' }" python, will require flake8 to be installed on the system.
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
@@ -217,13 +217,13 @@ let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
 " filetypes
-Plug 'Vimjas/vim-python-pep8-indent'
-Plug 'hdima/python-syntax'
-Plug 'othree/html5.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'plasticboy/vim-markdown'
-Plug 'kballard/vim-fish'
-Plug 'tpope/vim-git'
+Plug 'Vimjas/vim-python-pep8-indent', { 'for': 'python' }
+Plug 'hdima/python-syntax', { 'for': 'python' }
+Plug 'othree/html5.vim', { 'for': 'html' }
+Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+Plug 'kballard/vim-fish', { 'for': 'fish' }
+Plug 'tpope/vim-git', { 'for': 'git' }
 
 au FileType markdown,text setlocal spell textwidth=0 linebreak
 au FileType gitcommit setlocal colorcolumn+=51
