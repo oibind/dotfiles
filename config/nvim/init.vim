@@ -214,20 +214,16 @@ let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
 let g:ncm2#matcher = 'substrfuzzy'
 
-" tab spacing for filetypes
+" filetypes
 Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'hdima/python-syntax'
+Plug 'othree/html5.vim'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'plasticboy/vim-markdown'
+Plug 'kballard/vim-fish'
+Plug 'tpope/vim-git'
 
-au BufNewFile,BufRead *.fish
-    \ set tabstop=2 |
-    \ set softtabstop=2 |
-    \ set shiftwidth=2 |
-    \ set textwidth=79 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix
-
-autocmd Filetype gitcommit setlocal spell textwidth=72
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+au FileType markdown,text setlocal spell textwidth=0 linebreak
+au FileType gitcommit setlocal colorcolumn+=51
 
 call plug#end()
