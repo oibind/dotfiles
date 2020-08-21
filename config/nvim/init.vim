@@ -214,9 +214,6 @@ let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
 let g:ncm2#matcher = 'substrfuzzy'
 
-" skeleton files
-autocmd BufNewFile *.py 0r ~/.config/nvim/skel/skeleton.py
-
 " tab spacing for filetypes
 Plug 'vim-scripts/indentpython.vim'
 
