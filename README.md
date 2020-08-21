@@ -16,6 +16,9 @@ git clone oibind/dotfiles && cd dotfiles && ./install
 [sxiv](https://github.com/muennich/sxiv) | lightweight image viewer
 [lf](https://github.com/gokcehan/lf) | terminal based file manager
 [fzf](https://github.com/junegunn/fzf) | command-line fuzzy finder
+[ag](https://github.com/ggreer/the_silver_searcher) | better version of ack
+[ripgrep](https://github.com/BurntSushi/ripgrep) | grep but faster
+[exa](https://github.com/ogham/exa) | colourful replacement for ls
 [firefox](https://www.mozilla.org) | web browser
 [slock](https://github.com/oibind/slock) | screen locker from the 90s
 [xlogin](https://github.com/joukewitteveen/xlogin) | autologin with systemd
