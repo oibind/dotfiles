@@ -218,7 +218,8 @@ let g:ncm2#matcher = 'substrfuzzy'
 " python ide
 Plug 'Vimjas/vim-python-pep8-indent', { 'for': 'python' }
 Plug 'hdima/python-syntax', { 'for': 'python' }
-Plug 'ncm2/ncm2-jedi', { 'for': 'python' } " python, will require flake8 and jedi to be installed on the system.
+Plug 'ncm2/ncm2-jedi', { 'for': 'python' } " requires flake8 and jedi
+
 
 " filetypes
 Plug 'othree/html5.vim', { 'for': 'html' }
