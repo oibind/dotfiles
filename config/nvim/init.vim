@@ -189,7 +189,7 @@ endfunction
 set laststatus=2
 
 " linting/fixing
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 let g:ale_set_highlights = 0
 let g:ale_change_sign_column_color = 0
