@@ -67,9 +67,11 @@ pavucontrol
 picom
 pkgconf
 pulseaudio-alsa
+python-jedi
 python-neovim-git
 python-pdftotext
 python-setuptools
+reflector
 ripgrep
 rsync
 slack-desktop
