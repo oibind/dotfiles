@@ -202,7 +202,6 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
-Plug 'ncm2/ncm2-jedi', { 'for': 'python' } " python, will require flake8 and jedi to be installed on the system.
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
@@ -216,9 +215,12 @@ let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
 let g:ncm2#matcher = 'substrfuzzy'
 
-" filetypes
+" python ide
 Plug 'Vimjas/vim-python-pep8-indent', { 'for': 'python' }
 Plug 'hdima/python-syntax', { 'for': 'python' }
+Plug 'ncm2/ncm2-jedi', { 'for': 'python' } " python, will require flake8 and jedi to be installed on the system.
+
+" filetypes
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
 Plug 'kballard/vim-fish', { 'for': 'fish' }
