@@ -9,6 +9,7 @@
 [help]
         autoCorrect = 13
 [alias]
+        whatadded = "log --diff-filter=A --"
         cleanup = "!git branch --merged | grep  -v 'main' | xargs -n 1 git branch -d"
         b = browse
 [init]
