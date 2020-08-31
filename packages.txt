@@ -43,6 +43,7 @@ hub
 ifplugd
 keybase
 lf-bin
+libtool
 libxft-bgra-git
 linux-firmware
 linux-hardened
@@ -108,4 +109,5 @@ xorg-xsetroot
 yay
 youtube-dl
 zathura
+zathura-pdf-mupdf
 zip
