@@ -19,6 +19,8 @@ set __fish_git_prompt_char_invalidstate "✗"
 
 # fish prompt
 function fish_prompt
+  set fish_greeting
+
   set -l last_status $status
 
   set_color $fish_color_host
