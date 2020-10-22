@@ -19,7 +19,7 @@ git clone oibind/dotfiles && cd dotfiles && ./install
 [ag](https://github.com/ggreer/the_silver_searcher) | better version of ack
 [ripgrep](https://github.com/BurntSushi/ripgrep) | grep but faster
 [exa](https://github.com/ogham/exa) | colourful replacement for ls
-[firefox](https://www.mozilla.org) | web browser
+[chrome](https://www.google.com/chrome/) | web browser
 [slock](https://github.com/oibind/slock) | screen locker from the 90s
 [xlogin](https://github.com/joukewitteveen/xlogin) | autologin with systemd
 [dockd](https://github.com/libthinkpad/dockd) | thinkpad dock management
