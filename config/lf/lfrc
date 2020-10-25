@@ -6,7 +6,7 @@ set scrolloff 10
 set color256
 set icons
 set period 1
-set hiddenfiles "lost+found:.*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
+set hiddenfiles "System Volume Information:lost+found:.*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
 
 # previewer
 $lf -remote "send $id set previewer ${XDG_CONFIG_HOME:-$HOME/.config}/lf/scope"
