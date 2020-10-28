@@ -25,6 +25,7 @@ exa
 exfat-utils
 fakeroot
 fd
+firefox
 fish
 flake8
 flex
@@ -33,7 +34,6 @@ gcc
 get_iplayer
 gimp
 git
-google-chrome
 groff
 grub
 harfbuzz
