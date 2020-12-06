@@ -38,7 +38,7 @@ groff
 grub
 harfbuzz
 highlight
-htop-vim-git
+htop
 hub
 ifplugd
 keybase
@@ -52,12 +52,14 @@ maim
 make
 man-db
 mediainfo
+minecraft-launcher
 mlocate
 mpv
 neofetch
 neovim
 nerd-fonts-mononoki
 network-manager-applet
+networkmanager
 newsboat
 noto-fonts-emoji
 numix-square-icon-theme
@@ -111,3 +113,4 @@ youtube-dl
 zathura
 zathura-pdf-mupdf
 zip
+zoom
