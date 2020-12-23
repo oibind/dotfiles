@@ -3,7 +3,6 @@ set shell bash
 set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
-set color256
 set icons
 set period 1
 set hiddenfiles "System Volume Information:lost+found:.*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
