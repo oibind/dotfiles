@@ -8,6 +8,7 @@ export READER="zathura"
 
 # paths
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
+export PATH="$PATH:$HOME/go/bin"
 
 # locales
 export LANG=en_US.UTF-8

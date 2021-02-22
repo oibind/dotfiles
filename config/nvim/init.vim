@@ -86,6 +86,9 @@ xnoremap <leader>j :m'>+<cr>gv=gv
 
 " specific plugin config
 
+" go
+Plug 'fatih/vim-go'
+
 " sprunge.us
 Plug 'javier-lopez/sprunge.vim'
 
