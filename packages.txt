@@ -67,7 +67,6 @@ pacman-contrib
 pamixer
 patch
 pavucontrol
-picom
 pkgconf
 pulseaudio-alsa
 python-jedi
@@ -100,6 +99,7 @@ wmname
 wpa_supplicant
 xcalib
 xclip
+xcompmgr
 xf86-input-evdev
 xf86-video-intel
 xlogin
