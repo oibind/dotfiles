@@ -25,7 +25,6 @@
     ~/.local/share/applications: local/share/applications
     ~/.config/zathura: config/zathura
     ~/.config/neofetch: config/neofetch
-    ~/.config/newsboat/config: config/newsboat/config
     ~/.config/mpv: config/mpv
 
 - create:
