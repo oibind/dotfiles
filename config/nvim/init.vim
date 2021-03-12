@@ -159,7 +159,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 let g:mkdp_auto_start = 0
 
 " auto un/comment
-Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-commentary'
 
 nmap <C-m> gcc
 vmap <C-m> gc
