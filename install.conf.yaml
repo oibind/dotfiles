@@ -26,6 +26,7 @@
     ~/.config/zathura: config/zathura
     ~/.config/neofetch: config/neofetch
     ~/.config/mpv: config/mpv
+    ~/.gnupg/gpg.conf: config/gpg.conf
 
 - create:
     - ~/downloads
