@@ -133,7 +133,6 @@ map <C-n> :NERDTreeToggle<CR>
 " git stuff
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-" requires neovim 0.4 or later for floating windows support
 Plug 'rhysd/git-messenger.vim'
 
 " use ag to search and open files containing specific words
