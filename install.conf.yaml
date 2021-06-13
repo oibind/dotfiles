@@ -27,6 +27,7 @@
     ~/.config/neofetch: config/neofetch
     ~/.config/mpv: config/mpv
     ~/.gnupg/gpg.conf: config/gpg.conf
+    ~/.config/user-dirs.dirs: config/user-dirs.dirs
 
 - create:
     - ~/downloads
