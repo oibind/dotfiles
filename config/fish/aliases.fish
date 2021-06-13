@@ -1,4 +1,4 @@
-## abbreviatons
+## abbreviations
 
 # generic
 abbr du 'du -h'
