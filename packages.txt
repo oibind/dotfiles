@@ -10,8 +10,8 @@ bc
 bind
 binutils
 bison
+cbatticon
 chafa
-cointop-bin
 ctags
 dash
 dashbinsh
@@ -25,7 +25,6 @@ dosfstools
 dunst
 equilux-theme
 exa
-exercism
 exfat-utils
 fakeroot
 fd
@@ -61,6 +60,7 @@ mediainfo
 minecraft-launcher
 mlocate
 mpv
+mtools
 neofetch
 neovim
 nerd-fonts-mononoki
@@ -97,7 +97,6 @@ udisks2
 unclutter-xfixes-git
 unrar
 unzip
-w3m
 wget
 which
 whois
@@ -106,6 +105,7 @@ wpa_supplicant
 xcalib
 xclip
 xcompmgr
+xdg-user-dirs
 xf86-input-evdev
 xf86-video-intel
 xlogin
@@ -114,9 +114,8 @@ xorg-server-xephyr
 xorg-xbacklight
 xorg-xinit
 xorg-xsetroot
-yay
+yay-bin
 youtube-dl
 zathura
 zathura-pdf-mupdf
 zip
-zoom
