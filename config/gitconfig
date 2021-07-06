@@ -1,7 +1,7 @@
 [user]
         name = Aoibhinn Nic Aoidh
-        email = oibind@pm.me
-        signingkey = AAAF27D04117FA01
+        email = aoibhinn.nic.aoidh@gmail.com
+        signingkey = 1F58E3007F0B7ECB
 [core]
         editor = nvim
 [commit]
