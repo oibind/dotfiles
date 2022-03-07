@@ -1,6 +1,0 @@
-#!/bin/sh
-
-while true; do
-        xsetroot -name "$( date +"%A %d %B > %H:%M" ) "
-        sleep 1m
-done &
