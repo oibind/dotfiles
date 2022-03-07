@@ -1,5 +1,0 @@
-#!/bin/sh
-
-. ~/.xprofile
-
-ssh-agent awesome

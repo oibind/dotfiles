@@ -7,30 +7,9 @@
 - link:
     ~/.gitconfig: config/gitconfig
     ~/.config/nvim: config/nvim
-    ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
-    ~/.gtkrc-2.0: config/gtk-2.0/gtkrc-2.0
-    ~/.config/fish: config/fish
-    ~/.config/fontconfig: config/fontconfig
-    ~/.local/bin: local/bin
-    ~/.local/resources: local/resources
     ~/.config/tmux: config/tmux
-    ~/.config/picom.conf: config/picom.conf
-    ~/.config/lf: config/lf
-    ~/.xinitrc: config/xinitrc
-    ~/.xprofile: config/xprofile
-    ~/.config/Xresources: config/Xresources
-    ~/.profile: config/profile
     ~/.config/wget: config/wget
-    ~/.config/mimeapps.list: config/mimeapps.list
-    ~/.local/share/applications: local/share/applications
-    ~/.config/zathura: config/zathura
-    ~/.config/neofetch: config/neofetch
-    ~/.config/mpv: config/mpv
     ~/.gnupg/gpg.conf: config/gpg.conf
-    ~/.config/user-dirs.dirs: config/user-dirs.dirs
-
-- create:
-    - ~/downloads
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
