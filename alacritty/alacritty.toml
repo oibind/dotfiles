@@ -1,0 +1,21 @@
+import = [
+  "~/.config/alacritty/theme.toml"
+]
+
+[ env ]
+TERM = "xterm-256color"
+
+[window]
+startup_mode = "FullScreen"
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+
+#regular
+size = 14
